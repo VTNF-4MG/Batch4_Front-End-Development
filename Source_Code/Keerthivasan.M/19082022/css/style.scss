@@ -1,0 +1,587 @@
+$primary:#fff;
+$title:#151515;
+$para:#777777;
+$button:#f8ea49;
+$secondary:#000;
+$border:#e1e1e1;
+$color:#4397c5;
+$text:#555c65;
+
+@font-face{
+    font-family: "poppinsregular";
+    src: url("../asset/fonts/poppins-regular-webfont.eot");
+    src: url("../asset/fonts/poppins-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-regular-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-regular-webfont.woff") format("woff"), url("../asset/fonts/poppins-regular-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-regular-webfont.svg#poppinsregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppinsbold";
+    src: url("../asset/fonts/poppins-bold-webfont.eot");
+    src: url("../asset/fonts/poppins-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-bold-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-bold-webfont.woff") format("woff"), url("../asset/fonts/poppins-bold-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-bold-webfont.svg#poppinbold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsmedium_italic';
+    src: url('../asset/fonts/poppins-mediumitalic-webfont.eot');
+    src: url('../asset/fonts/poppins-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../asset/fonts/poppins-mediumitalic-webfont.woff2') format('woff2'), url('../asset/fonts/poppins-mediumitalic-webfont.woff') format('woff'), url('../asset/fonts/poppins-mediumitalic-webfont.ttf') format('truetype'), url('../asset/fonts/poppins-mediumitalic-webfont.svg#poppinsmedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'comfortaaregular';
+    src: url('../asset/fonts/comfortaa-variablefont_wght-webfont.eot');
+    src: url('../asset/fonts/comfortaa-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'), url('../asset/fonts/comfortaa-variablefont_wght-webfont.woff2') format('woff2'), url('../asset/fonts/comfortaa-variablefont_wght-webfont.woff') format('woff'), url('../asset/fonts/comfortaa-variablefont_wght-webfont.ttf') format('truetype'), url('../asset/fonts/comfortaa-variablefont_wght-webfont.svg#comfortaaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: "poppinsregular";  
+    line-height: 25px;
+    margin: 0px auto;
+}
+button{
+    background-color: $button;
+    border: none;
+    font-size: 16px;
+    padding: 15px 30px;
+    color: $secondary;
+    border-radius: 5px;
+    font-weight: bold;
+    &:hover{
+        background-color: #70d000;
+    }
+}
+.titlesection{
+    text-align: center;
+    color: $primary;
+    &__title{
+        color: $title;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'comfortaaregular';
+    }
+    &__border{
+        border: 1px solid $primary;
+        display:inline-block;
+        width: 15%;
+    }
+    &__para{
+        font-size: 17px;
+        padding: 15px 0;
+    }
+}
+.teaserlist{
+    text-align: center;
+    margin: 40px 0;
+    &__image{
+        width: 100%;
+        border: 1px solid $border;
+        padding: 15px;
+    }
+    &__title{
+        font-family: 'comfortaaregular';
+        color: $title;
+        font-size: 25px;
+        line-height: 40px;
+        font-weight: bold;
+    }
+    &__para{
+        color: $para;
+        line-height: 25px;
+        margin: 0;
+    }
+    &__click{
+        border-bottom: 2px solid #a7a7a7;
+        color: #a7a7a7;
+        font-weight: bold;
+        padding: 5px 0 3px 0;
+        font-size: 13px;
+        display: inline-block;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+// header //
+.header{
+    background: url(../asset/images/slide-1.jpg) no-repeat -140px 0px / cover;
+    height: 730px;
+    &__divers{
+        margin: 30px 0px;       
+    }
+    &__divers--text{
+        display: block;
+        color: $primary;
+        font-size: 15px;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            color: $button;
+        }
+    }
+    &__divers--text--menu{
+        padding: 5px;
+        text-align: center;
+        background-color:$primary;
+        border-radius: 50%;
+        width: 11%;
+        margin-top: 3px;
+        font-size: 16px;
+        color: $secondary;
+        height: 37px;
+    }
+    &__divers--image{
+        padding: 0 35%;
+    } 
+    &__customnavbar{
+        background: none;
+        border: none;
+        border-top: 1px solid $color;  
+        border-bottom: 1px solid $color;
+        padding: 10px 0;
+        border-radius:0;
+        .navbar-nav{
+            margin: 0 21%;
+            li a{
+                color: $primary;
+                font-family: "poppinsbold";
+                margin: 0 10px;
+            }
+            li a:hover, .active{
+                color: $button;
+            } 
+        }
+    }  
+    &__bannersection{
+        margin: 40px 0;
+    }
+    &__title{
+        color: $primary;
+        font-size: 56px;
+        line-height: 80px;
+        font-family: 'comfortaaregular';
+        font-weight: bold;
+    }
+    &__para{
+        color: #7fa3c0;
+        line-height: 30px;
+        font-size: 20px;
+        padding: 20px 0 35px 0;
+    }
+}  
+.destination{
+    margin: 50px 0;
+}
+// herobanner //
+.herobanner{
+    background: url(../asset/images/bg-index-1.jpg) no-repeat -40px 0px / cover;
+    height: 460px;
+    &__teaser{
+        margin: 20px 0;
+    }
+    &__teaserlist--list{
+        margin: 20px 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+    &__teaserlist--list--item{
+        border-top: 2px solid $border;
+        padding: 25px 0;
+        text-align: center;
+    }
+    &__image{
+        width: 100%;
+        margin: 25px 0;
+    }
+    &__image--space{
+        width: 100%;
+        margin: 25px 0 25px 10px;
+    }
+}
+// numberssection //
+.numberssection{
+    background: url(../asset/images/parallax-1.jpg) no-repeat 0px -80px / cover;
+    height: 450px;
+    &__list{
+        margin: 7% 0;
+    }
+    &__titlesection--title{
+        font-size: 55px;
+        font-weight: bold;
+        color: $primary;
+    }
+}
+// bodysection //
+.bodysection{
+    .customindicator{
+        bottom: -55px;
+        li{
+            background-color: #d7d7d7;
+            width: 15px;
+            height: 15px;
+        }
+        .active{
+            background-color: $color;
+        }
+    }
+    &__rightsection{
+        margin: 8% 2%;
+    }
+    &__title{
+        background: url(../asset/images/Capture1.JPG) no-repeat 0px 8px / 10%;
+        border-bottom: 1px solid $border;
+        font-size: 18px;
+        color: $secondary;
+        cursor: pointer;
+        padding: 5% 13%;
+    }
+    &__title.active{
+        background: url(../asset/images/Capture2.JPG) no-repeat 0px 8px / 10%;
+    }
+    &__para{
+        color: $para;
+        padding: 10px 0;
+        display: none;
+    }
+    &__location{
+        margin: 10% 0;
+        border: 1px solid $primary;
+    }
+    &__item{
+        border: 1px solid $border;
+        padding: 30px;
+    }
+    &__image{
+        margin: 8px 10px;
+    }
+    &__titlesection{
+        display: inline-block;
+        text-align: left;
+    }
+    &__titlesection--title{
+        font-size: 19px;
+        line-height: 10px;
+    }
+    &__titlesection--text{
+        color: $para;
+        line-height:0px;
+        font-size: 14px;
+    }
+}
+// testimonialsection //
+.testimonialsection{
+    background-color: #eff3f8;
+    padding: 4% 0;
+    &__titlesection--para{
+        color: $para;
+        line-height: 35px;
+    }
+    &__clientsection{
+        padding: 0 22%;
+    }
+    &__childone{
+        background-color: #eff3f8a3;
+        position: absolute;
+        height: 24%;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    &__childone--childtwo{
+        height: 90%;
+        top: 48px;
+    }
+    &__childone--lastchild{
+        height: 100%;
+    }
+    &__teaserlist{
+        margin: 20px 0;
+        position: relative;
+    }
+    &__image{
+        border-radius: 100%;
+    }
+    &__teaserlist--title{
+        font-size: 15px;
+        font-family: "poppinsregular";
+        line-height: 20px;
+    }
+    &__teaserlist--para{
+        color: $color;
+        font-family: 'poppinsmedium_italic';
+    }
+}
+// gallerysection //
+.gallerysection{
+    margin: 5% 0;
+    &__list{
+        margin: 40px 0;
+    }
+    &__image{
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+// newssection //
+.newssection{
+    background: url(../asset/images/parallax-4.jpg) no-repeat 0px 0px / cover;
+    height: 300px;
+    &__item{
+        margin: 8% 0;
+    }
+  
+    &__titlesection--title{
+        color: $primary;
+    }
+    &__titlesection--para{
+        color: #97b3c8;
+        font-size: 14px;
+        line-height: 0px;
+    }
+    &__control{
+        border: none;
+        margin: 30px 0;
+        padding: 30px;
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+        text-align: center;
+        border-bottom: 1px solid $primary;
+        font-size: 17px;
+        color: #fff;
+        &::placeholder{
+            color: $primary;
+        }
+    }
+    &__button{
+        margin: 28px 0;
+    }
+}
+// instructors //
+.instructors{
+    margin: 5% 0;
+    &__item{
+        padding: 0;
+    }
+    &__list{
+        list-style-type: none;
+        display: inline-block;
+        i{
+            font-size: 18px;
+            color: $secondary;
+            margin: 10px 8px;
+        }
+    }
+    &__teaserlist--title{
+        font-size: 22px;
+    }
+}
+// blogsection //
+.blogsection{
+    background-color: #eff3f8;
+    padding: 5% 0;
+    &__teaser{
+        margin: 10% 0;
+    }
+    &__teaserlist{
+        background-color: $primary;
+        padding: 20px;
+    }
+    &__teaserlist--image{
+        width: 100%;
+    }
+    &__teaserlist--title{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    &__teaserlist--para{
+        padding: 10px 0 5px 0;
+    }
+}
+// footersection //
+.footersection{
+    background-color: #2a333f;
+    & a:hover{
+        color: $primary;
+        text-decoration: none;
+    } 
+    &__list{
+        margin: 6% 0;
+    }
+    &__titlesection{
+        text-align: left;
+    }
+    &__titlesection--title{
+        color: $primary;
+        font-size: 22px;
+    }
+    &__item{
+        padding: 0px;
+        margin: 40px 0;
+    }
+    &__menu{
+        display:inline;
+    }
+    &__image{
+        width: 24%;
+        margin: 5px 4px;
+    }
+    &__linksection{
+        padding: 0;
+        margin: 25px 0;
+        list-style-type: none;
+    }
+    &__border{
+        border: 1px solid $text;
+        display:inline-block;
+        width: 13%; 
+        margin: 3px 0;
+    }
+    &__text{
+        color: $primary;
+        padding: 0 10px;
+        display: inline-block;
+        line-height: 30px;
+    }
+    &__text--line{
+        line-height: 25px;
+    }
+    &__touch{
+        margin-top: 40px;
+    }
+    &__touch--space{
+        margin: 10px 0;
+    }
+    i{
+        color: $button;
+        font-size: 22px;
+    }
+    &__menulist{
+        display: inline-block;
+        margin-right: 10px;
+        i{
+            color: $text;
+            border-radius: 50%;
+            border: 1px solid $text;
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+        }
+        & i:hover{
+            border: 1px solid $button;
+            color: $button;
+            transition: 3s;
+        }
+    }
+    &__menulist--facebook{
+        i{
+            padding: 10px 13px;
+        }
+    }
+    &__copyright{
+        border-top: 1px solid #4f565f;
+    }
+    &__teaserlist--para{
+        i{
+            color: $text;
+            font-size: 15px;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    button{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .header{
+        height: auto;
+        &__divers{
+            margin: 0;
+        }
+        &__divers--text{
+            display: none;
+        }
+        &__divers--image{
+            padding: 15px 0;
+            display: inline-block;
+        }
+        &__toggle{
+            margin-right: 0;
+        }
+        &__customnavbar{
+            padding: 0;
+            margin-top: -22%;
+            border: none;
+            .navbar-nav{
+                margin: 15px 0;
+                li a{
+                    margin: 0;
+                    padding: 7px 0;
+                }
+            }
+            .navbar-collapse{
+                border:none;
+                box-shadow: none;
+            }
+        }
+        &__bannersection{
+            margin: 0;
+        }
+        &__title{
+            font-size: 20px;
+            line-height: 0px;
+        }
+    }
+    .destination{
+        margin: 20px 0;
+    }
+    .herobanner{
+        height: auto;
+        &__image--space{
+            width: 30%;
+            margin: 15px 0;
+        }
+        &__image{
+            width: 30%;
+            margin: 0;
+        }
+        &__teaserlist--list{
+            padding: 0;
+            margin: 10px 0;
+        }
+        &__teaserlist--list--item{
+            border: none;
+            padding: 15px 0;
+        }
+    }
+    .numberssection{
+        height: auto;
+        background-position: 0;
+    }
+    .bodysection{
+        margin: 30px 0;
+        &__item{
+            margin: 15px 0;
+        }
+    }
+    .newssection{
+        height: auto;
+        &__titlesection{
+            text-align: left;
+        }
+        &__control--color{
+            font-size: 17px;
+        }
+    }
+    .footersection{
+        &__text{
+            padding: 0;
+        }
+        &__linksection{
+            margin: 0;
+        }
+    }
+}
