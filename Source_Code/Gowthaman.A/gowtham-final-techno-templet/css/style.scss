@@ -1,0 +1,739 @@
+$whiteclr:#ffffff;
+$fontsz:16px;
+$primaryclr:#0c5adb;
+$btnclr:#0c5adb;
+$secondaryclr:#000000;
+$fontsclr:#757575;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+/*
+    Project Name            :   Techno
+    Auther Name             :   Gowthaman
+    Date of Development     :   26, Aug 2022
+    Project Designed        :   Jegan
+*/
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+/*global*/
+a{
+    text-decoration: none;
+    display: inline-block;
+    &:hover{
+        text-decoration: none;
+    }
+}
+ul{
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
+.titlesection{
+    text-align: center;
+    &__pretitle{
+        font-size: $fontsz+4;
+        color: $primaryclr;
+        letter-spacing: 3px;
+    }
+    &__title{
+        font-size: $fontsz+24;
+        font-weight: 800;
+        margin: 15px 0;
+    }
+}
+.teaser{
+    text-align: center;
+    &--title
+    {
+        font-size: 25px;
+    }
+    &--text
+    {
+        margin: 20px 0;
+        line-height: 27px;
+    }
+    &__button{
+        color: $primaryclr;
+        padding: 0;
+        font-size: 14px;
+        &--icon{
+            padding-left: 3px;
+            font-size: 10px;
+        }
+        &:hover{
+            color: $secondaryclr;
+        }
+        
+    }
+}
+i{
+    padding-right: 5px;
+}
+/*Header*/
+.topnav{
+    background: $primaryclr;
+    &__list{
+        padding: 5px 0;
+        margin: 0;
+    }
+    &__list--item{
+        display: inline-block;
+        color: $whiteclr;
+        margin: 10px 0 ;
+    }
+    &__list--item--color{
+        color: $whiteclr;
+        &:hover{
+            text-decoration: none;
+            color: $secondaryclr;
+        }
+        i{
+            padding: 0 5px;
+        }
+    }
+    &__pull-right{
+        text-align: right;
+        margin: 14px 0;
+        word-spacing: 5px;
+    }
+    &__socialmedia{
+        text-align: right;
+        display: inline;
+        color: $whiteclr;
+    }
+}
+.custom-navbar{
+    display: flex;
+    margin: 10px 0;
+    .nav-item{
+        margin: 0 0 0 23px;
+    }
+    .navbar{
+        padding: 10px 0;
+    }
+    &__menubar{
+        color: $secondaryclr;
+        margin: 0 0 0 22px;
+        &:hover,&.active{
+            color: $primaryclr;
+        }
+    }
+    .navbar-collapse{
+        justify-content: end; 
+    }
+}
+.herobanner{
+    background: url('../asset/images/bg2.jpg') no-repeat 0px 0px / cover;
+    height: 564px;
+    color: $whiteclr;
+    &__bannersection{
+        padding: 12% 0;
+        text-align: center;
+    }
+    &__bannersection--title{
+        font-weight: 700;
+        font-size: 55px;
+    }
+    &__bannersection--text{
+        margin: 30px 0;
+        font-size: 18px;
+    }
+    &__bannersection--primary{
+        border: none;
+        background: $btnclr;
+        padding: 12px 35px;
+        color: $whiteclr;
+        margin-right: 15px;
+        border-radius: 5px;
+        &:hover{
+            border: none;
+            background: $whiteclr;
+            color: $primaryclr;
+        }
+    }
+}
+/*services*/
+.servicescomponent{
+    padding: 8% 0;
+    &__teaser{
+        text-align: center;
+        position: relative;
+        padding: 25px;
+        box-shadow: 4px 8px 30px #346ec19e;
+        &--title
+        {
+            font-size: 27px;
+        }
+        &--text
+        {
+            margin: 15px 0;
+            font-size: 18px;
+            line-height: 28px;
+            color: $fontsclr;
+        }
+    }
+    &__bgcircle{
+        margin: 20px 0;
+        display: inline-block;
+        padding: 20%;
+        background-color: $whiteclr;
+        border-radius: 50%;
+        box-shadow: 8px 3px 10px #f5f5f5 ;
+    }
+    &__icon
+    {
+        color: $primaryclr;
+        margin: 20px 0;
+        position: absolute;
+        left: 30%;
+        top: 5%;
+        font-size: 40px;
+        padding: 40px;
+        background-color: #e6eefb;
+        border-radius: 100%;
+        box-shadow: -10px 7px 10px #d3d3d3 ;
+    }
+    &__button
+    {
+        margin: 20px 0;
+        border: 1px solid $btnclr;
+        padding: 10px 30px;
+        border-radius: 25px;
+        color: $btnclr;
+        &:hover{
+            background-color: $btnclr;
+            color: $whiteclr;
+        }
+    }
+    &__firstcircle{
+        position: absolute;
+        top: 25%;
+        left: 24%;
+        padding: 10px;
+        background: #8292f1;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    &__secondcircle{
+        position: absolute;
+        top: 8%;
+        left: 33%;
+        padding: 10px;
+        background: #8292f1;
+        border-radius: 50%;
+    }
+    &__thirdcircle{
+        position: absolute;
+        top: 17%;
+        right: 30%;
+        padding: 7px;
+        background: #8292f1;
+        border-radius: 50%;
+    }
+}
+/*itsolution*/
+.itcomponent{
+    padding: 50px 0;
+    &__teaser--primary{
+        width: 100%;
+    }
+    &__title{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    &__describtion{
+        line-height: 30px;
+        margin: 35px 0;
+        font-size: 23px;
+        color:$fontsclr;
+    }
+    &__title--primary{
+        color: $btnclr;
+    }
+    &__paratext{
+        margin: 50px 0;
+        border-left: 1px solid #ddd;
+        padding-left: 20px;
+        color: $fontsclr;
+        &--para{
+            line-height: 25px;
+        }
+    }
+    &__button{
+        padding: 15px 30px;
+        margin-left: 20px;
+        &:hover{
+            border: 1px solid $btnclr;
+            background:$whiteclr;
+            color: $primaryclr;
+
+        }
+    }
+}
+/*company*/
+.companycomponent{
+    background: url("../asset/images/slider14.jpg") no-repeat 0px 0px / cover;
+    height: 464px;
+    &__title{
+        color: $whiteclr;
+        font-weight: 900;
+        padding-top: 10%;
+        text-align: center;
+    }
+    &__companysection{
+        position: relative;
+    }
+    &__teaserlist--teaser{
+        position: absolute;
+        top: 70px;
+        padding: 10px;
+        background:$primaryclr;
+        color: $whiteclr;
+        border-radius: 5px;
+        &--icon{
+            margin: 10px 0;
+            font-size: 40px;
+        }
+    }
+}
+/*provide*/
+.providesection{
+    padding:10% 0 5% 0;
+    &__titlesection{
+        &__title{
+            &--primary{
+                color: $primaryclr;
+            }
+        }
+    }
+    &__teaser{
+        text-align: left;
+        margin: 20px 0; 
+        position: relative;
+        &__title{
+            font-size: 25px;
+        }
+        &__text{
+            font-size: 15px;
+            line-height: 25px;
+            &--readmore{
+                display: none;
+            }
+        }
+        &--primary{
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+        &--icon{
+            position: absolute;
+            left: 4%;
+            bottom: 46%;
+            font-size: $fontsz+15;
+            color: $whiteclr;
+            padding: 20px;
+            background: $primaryclr;
+            border-radius: 5px;
+        }
+    }
+    &__providecontent{
+        padding: 35px 15px;
+        border: 1px solid #eeeeee;
+        border-top: none;
+    }  
+}
+/*Ideacomponent*/
+.ideacomponent{
+    background: url('../asset/images/cn-bg.jpg') no-repeat 0px 0px / cover;
+    height: 650px;
+    &__idealeftsideimage{
+        padding-top:10.4% ;
+    }
+    &__ideaimage{
+        width: 100%;
+    }
+    &__idearightcontent{
+        color: $whiteclr;
+        padding-top: 31%;
+        &--phonenumber{
+            font-weight: bold;
+        }
+        &--title{
+            font-weight: bold;
+            font-size: $fontsz+24;
+            margin: 25px 0;
+        }
+        &--button{
+            margin: 10px 0;
+            color: $primaryclr;
+            background: $whiteclr;
+            padding: 10px 25px;
+            &:hover{
+                border: 1px solid $whiteclr;
+                background: $primaryclr;    
+                color: $whiteclr;
+            }
+        }
+    }
+}
+/*Testimonial*/
+.testimonialcomponent{
+    padding: 7% 0 5% 0;
+    &__testimonialsection{
+        margin: 35px 0;
+    }
+    &__leftimage{
+        &--image{
+            width: 100%;
+        }
+    }
+    &__rightcontent{
+        background: $primaryclr;
+        color: $whiteclr;
+        padding:7% 0 0 0 ;
+        height: 424px;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            background: $primaryclr;
+            top: 0px;
+            left: -62px;
+            bottom: 0px;
+            width: 25%;
+            height: 100%;
+            transform: skew(-16deg);
+        }
+        &__title{
+            border-left:1px solid ;
+            padding-left: 20px;
+            position: absolute;
+            left: 5%;
+            &--titlename{
+                font-weight: bold;
+            }
+            &--subtitlename{
+                font-size: $fontsz+2;
+            }
+        }
+        &__para{
+            margin: 20px 0;
+            line-height: 28px;
+            position: absolute;
+            left: 5%;
+            top: 28%;
+        }
+        &__icons{
+            position: absolute;
+            bottom: 33%;
+            left: 5%;
+            &--icon{
+                font-size: 40px;
+                text-align: center;
+            }
+        }
+        &__quote{
+            position: absolute;
+            left: 5%;
+            bottom: 15%;
+            margin: 20px 0;
+            &--icon{
+                font-size: 40px;
+            }
+        }
+    }
+}
+/*article*/
+.articlecomponent{
+    background: #eff2f7;
+    padding: 5% 0;
+    &__button{
+        margin-top: 30px;
+        padding: 13px 30px;
+        background: $primaryclr;
+        color: $whiteclr;
+        &:hover{
+            background: $whiteclr;
+            color: $primaryclr; 
+            border: 1px solid $btnclr;
+        }
+    }
+    &__teaserlist{
+        margin: 35px 0;
+        &__teaser{
+            &--image{
+                width: 100%;
+            }
+            &__content{
+                background: $whiteclr;
+                text-align: left;
+                padding: 15px;
+                &--techno{
+                    padding-right: 10px;
+                    border-right: 1px solid;
+                }
+                &--technodate{
+                    padding-left: 10px;
+                }
+            }
+            &__title{
+                font-size: $fontsz+7;
+                font-weight: 600;
+                margin: 15px 0;
+            }
+            &__text{
+                line-height: 25px;
+                margin: 15px 0;
+            }
+            &--button{
+                padding: 0;
+                &:hover{
+                    color: $primaryclr;
+                }
+            }
+        }
+    }
+}
+/*footer*/
+.footercomponent{
+    background: #111a3a;
+    padding: 7% 0 0 0;
+    color: $whiteclr; 
+    &__footsection{
+        &__logo{
+            &--text{
+                margin: 20px 0;
+                line-height: 25px;
+            }
+            &--socialmedia{
+                display: inline-block;
+                padding: 0 8px;
+                color: $whiteclr;
+                font-size: 20px;
+            }
+        }
+        &__ourservices{
+            
+            &--listitem{
+                margin: 13px 0;
+                &--line{
+                    border: 1px solid $whiteclr;
+                    width: 13px;
+                    margin: 6px;
+                    display: inline-block;
+                }
+            }
+        }
+        &__companyaddress{
+            &--contact{
+                color: $whiteclr;
+                line-height: 30px;
+                margin: 5px 0;
+            }
+        }
+        &__popularpost{
+            &--line{
+                border-top: 1px solid $whiteclr;
+            }
+            &__posts{
+                display: flex;
+                margin: 22px 0;
+                &--image{
+                    width: 33%;
+                    height: 100%;
+                    margin-right: 15px;
+                }
+                &__content{
+                    margin: 10px 0 0 0;
+                    &--text{
+                        color: $fontsclr;
+                    }
+                }
+            }
+        }
+    }
+    &__footerbottom{
+        border-top:1px solid $whiteclr;
+        padding: 20px 0;
+        margin: 20px 0 0 0;
+        &__privacy{
+            text-align: right;
+        }
+    }
+
+}
+/*Mobile Responsive*/
+@media(min-width:320px) and (max-width:480px){
+    .titlesection{
+        text-align: center;
+        &__pretitle{
+            font-size: $fontsz+4;
+            color: $primaryclr;
+            letter-spacing: 2px;
+        }
+        &__title{
+            font-size: $fontsz+9;
+            margin: 15px 0;
+        }
+    }
+    .teaser{
+        &__title{
+            font-size: 20px;
+        }
+        &--title
+        {
+            font-size: 20px;
+        }
+        &--text
+        {
+            margin: 14px 0;
+            line-height: 25px;
+        }
+    }
+    .topnav{
+        display: none;
+    }
+    .custom-navbar{
+        .navbar-toggler{
+            background: #111a3a;
+        }
+    }
+    .herobanner{
+        height: auto;
+        &__bannersection{
+            &--title{
+                font-size: 20px;
+            }
+            &--primary{
+                padding: 10px 15px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .servicescomponent{
+        &__teaser{
+            margin-bottom: 15px;
+            &--title{
+                font-size: 20px;
+            }
+            &--text{
+                font-size: 14px;
+                line-height: normal;
+            }
+        }
+        &__thirdcircle{
+            right: 22%;
+        }
+    }
+    .itcomponent{
+        &__title{
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        &__describtion{
+            margin: 10px 0;
+            line-height: normal;
+            font-size: 14px;
+        }
+        &__paratext{
+            margin: 0;
+            &--para{
+                line-height: normal;
+            }
+        }
+    }
+    .companycomponent{
+        height: auto;
+        &__companysection{
+            position: sticky;
+        }
+        &__title{
+            font-size: 20px;
+        }
+        &__teaserlist{
+            &--teaser{
+                position: unset;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .providesection{
+        &__teaser{
+            &--icon{
+                padding: 10px;
+                bottom: 53%;
+            }
+        }
+    }
+    .ideacomponent{
+        height: auto;
+        &__idearightcontent{
+            padding: 0;
+            &--title{
+                font-size: 20px;
+            }
+        }
+    }
+    .testimonialcomponent{
+        padding: 20px 0;
+        &__rightcontent::before{
+            display: none;
+        }
+        &__rightcontent{
+            height: 320px;
+            &__title{
+                top: 14px;
+            }
+            &__para{
+                font-weight: 400;
+                top: 28%;
+                margin: 0;
+                line-height: 20px;
+            }
+            &__icons{
+                bottom: 24%;
+            }
+            &__quote{
+                bottom: 0;
+            }
+        }
+    }
+    .articlecomponent{
+        &__teaserlist{
+            &__teaser{
+                margin-bottom: 15px;
+                &__title{
+                    font-size: 20px;
+                }
+                &__text{
+                    font-size: 14px;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+    .footercomponent{
+        &__footsection{
+            &__logo{
+                margin-bottom: 25px;
+                &--text{
+                    line-height: 20px;
+                }
+            }
+            &__ourservices{
+                margin-bottom: 25px;
+                &--listitem{
+                    font-size: 15px;
+                }
+            }
+            &__companyaddress{
+                margin-bottom: 25px;
+                &--contact{
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
