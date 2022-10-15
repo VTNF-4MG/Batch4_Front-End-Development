@@ -1,0 +1,21 @@
+* 
+{
+  margin: 0px;
+  padding: 0px;
+}
+.form-group{
+    border:px solid red;
+}
+.container-col{
+  border:1px solid red;
+}
+.media-body{
+  margin:0px;
+  padding:0px;
+}
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  padding:10px 5px;
+}
