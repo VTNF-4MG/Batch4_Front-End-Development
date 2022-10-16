@@ -1,0 +1,102 @@
+$fs:20px;
+.border
+{
+    border:1px solid red;
+}
+.iconbar
+{
+    color: white;
+}
+.navbar
+{
+    margin:0px;
+    border-radius: 0px;
+    padding:30px 0px;
+}
+.custom-navbar-brand
+{
+    font-size: 22px;
+    color: white;
+}
+.custom-jumbotron
+{
+    text-align: center;
+    background-color:skyblue;
+}
+.custom-jumbotron h1,.custom-jumbotron p
+{
+    color:white;
+}
+.body h3
+{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+.custom-row
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.custom-container
+{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+h4
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+}
+.footer
+{
+    background-color: black;
+}
+.footer i
+{
+    font-size:25px;
+    margin-right: 10px;
+}
+span
+{
+    font-size:20px;
+}
+.sizing
+{
+    padding:5px 5px;
+    border-radius: 10px;
+    margin-right:3px;
+    font-size:35px;
+    color:grey;
+}
+.footer p
+{
+    margin-top: 20px;
+}
+.table
+{
+    padding-top: 20px;
+}
+.row .space
+{
+    border-bottom: 1px solid gray;
+}
+.line
+{
+    border-bottom: 1px solid grey;
+}
+.footer2
+{
+    background-color: grey;
+    padding:20px 0px;
+}
+.footer2 a
+{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(0, 225, 255);
+    color:black
+}

@@ -1,0 +1,318 @@
+body{
+    font-family: 'poppinsblack';
+}
+.titlesection {
+    h3{
+        font-size:20px;
+        color:blue;
+    }
+    h2{
+        font-size:30px;
+    }
+    p{
+        font-size:17px;
+    }
+}
+.teasersection{
+    .teaserlist{
+        border:0px solid grey;
+    }
+    .icon{
+        font-size:50px;
+        color:blue
+    }
+    .number{
+        font-size:70px;
+        font-weight:600;
+        color:#eaebeb;
+    }
+     h3{
+         font-size:35px;
+         color:black;
+         display: inline-block;
+    }
+    p{
+         font-size:16px;
+    }
+}
+.custom-navbar{
+    background:#f1f8ff;
+    margin:0;
+    .navbar-inverse .navbar-nav .active a
+    {
+        background-color: none;
+        color:blue;
+    }
+}
+.herobanner{
+    padding: 50px 0px;
+    background-color: #f1f8ff;
+    .bannercontent {
+        h2{
+            font-size:47px;
+             color:blue;
+        }
+         p{
+             font-size: 18px;
+        }
+        .btn
+        {
+            text-align:left;
+            padding:10px 30px;
+            border-radius: 20px;
+            background-color: #496dff;
+        }
+    }
+        
+}
+.worksection{
+    padding:50px 0px;
+}
+.clientsection{
+    background: #f1f8ff;
+    padding: 40px 0px;
+    ul{
+        margin:10px;
+        padding: 0px;
+        li{
+            list-style-type: none;
+            display: inline-block;
+            img{
+                width: 100%;
+                padding:20px;
+            }
+        }
+    }
+}
+.servicesection{
+    .teasersection .col-md-4{
+        border:1px solid red;
+        margin: 0px ;
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+        display: block;
+    }
+    .btn
+    {
+        text-align:center;
+        margin: 30px;
+        padding:10px 30px;
+        border-radius: 20px;
+    }
+    
+}
+.portfoliosection{
+    text-align: center;
+    background-color: #f6f6f6;
+    .titlesection{
+        text-align: left;
+    }
+    ul{
+        li{
+            display: inline;
+            font-size:20px;
+            margin: 0 17px;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        a:hover{
+            color:blue;
+        } 
+    }
+    img{
+        width:100%;
+        margin:5px;
+    }
+    .btn
+    {
+        text-align:center;
+        margin: 30px;
+        padding:10px 30px;
+        border-radius: 20px;
+    }
+}
+.projectsection{
+    text-align: center;
+    padding: 50px;
+    .teasersection{
+        box-shadow: 0px 0px 20px lightgrey;
+        padding:30px;
+        margin: 10px 0px;
+        i{
+            font-size:40px;
+            display:block;
+            color:blue;
+        }
+        h3{
+            font-size:50px;
+            display:block;
+        }
+        span{
+            font-size:20px;
+        }
+    }
+    h2{
+        font-size: 25px;
+        text-align: left;
+    }
+    P{
+        text-align: left;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    ul{
+        padding: 0px;
+        li{
+            list-style: none;
+            text-align: left;
+            font-size: 18px;
+           i{
+            font-size: 16px;
+            margin:10px 0px;
+            padding:1px;
+            border:1px solid blue;
+            border-radius: 100%;
+            color:blue;
+           }
+        }
+    }
+}
+.newssection{
+    background-color: #f6f6f6;
+    .teasersection{
+        background-color: #ffffff;
+        padding-bottom: 30px;
+        img{
+            width:100%;
+        }
+        i{
+            font-size:20px;
+            margin:10px 0px;
+            color:blue;
+        }
+        span{
+            margin:10px 0px;
+            display: inline-block;
+            font-size:18px;
+        }
+        h3{
+            font-size: 20px;
+            margin:10px;
+        }
+        p{
+            margin:10px;
+        }
+    }
+
+}
+.happyclientsection{
+    .teasersection{
+        .commandsection {
+            border:1px solid grey;
+            padding: 30px 30px 0px 30px;
+            i{
+                font-size: 40px;
+            }
+            .quotation {
+                    text-align: right;
+                }
+            .ratingsection{
+                background-color:#f1f8ff;
+                padding: 30px 0px;
+                .ceoboys{
+                    text-align: right;
+                    img{
+                        border-radius: 100%;
+                    }
+                }
+                h3{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                span{
+                    display:block;
+                }
+                i{
+                    font-size:25px;
+                    color:blue;
+                }
+
+            }
+        }
+       
+    }
+    
+}
+.contactsection{
+    .teasersection {
+        text-align: center;
+        .teaser{
+            border:1px solid lightgrey;
+            padding: 20px;
+            i{
+                font-size:40px;
+                border:1px solid grey;
+                padding:10px;
+                border-radius: 100%;
+            }
+            h4{
+                font-size:20px;
+                font-weight: bold;
+            }
+        }
+       
+    }
+    .form-map
+    {
+        margin:60px 0px;
+        .formgroup{
+            padding: 0px 20px 0px 0px;
+            .form-control{
+                margin:20px;
+                background-color :#f1f8ff;
+                padding:10px 20px;
+            }
+        }
+        .btn{
+            font-size:15px;
+            padding: 15px 30px;
+            border-radius: 30px;
+            margin-left: 15px;
+        }
+    }
+
+}
+.footersection{
+    background-color: #f1f8ff;
+    padding: 50px 0px;
+    .footerinner{
+        span{
+            border:2px solid blue;
+            display:inline-block;
+            width:50px;
+        }
+        h5{
+            font-size:18px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 18px;
+        }
+        ul{
+            margin:0px;
+            padding:0px;
+            li{
+                list-style: none;
+                margin:10px 0px;
+            }
+            .formgroup{
+                margin:10px 0px;
+                padding: 20px;
+            }
+        }
+    }
+}

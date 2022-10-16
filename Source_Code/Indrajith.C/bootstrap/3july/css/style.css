@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root {
+  --color:skyblue;
+  --headingcolor:violet;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */

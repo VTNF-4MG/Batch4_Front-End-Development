@@ -1,0 +1,15 @@
+.custom-navbar {
+  color: red;
+}
+
+.custom-navbar .navbar-brand {
+  color: black;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-right: 800px solid rgb(85, 85, 85);
+  border-bottom: 500px solid transparent;
+}/*# sourceMappingURL=style.css.map */

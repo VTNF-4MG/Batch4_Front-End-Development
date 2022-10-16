@@ -1,0 +1,148 @@
+$border:1px solid red;
+$bgcolor:black;
+$fontsize:15px;
+$textcolor:white;
+$bannerbg:#13a89e;
+$line:1px solid grey;
+.border{
+    border:$border;
+}
+.headercontainer{
+    background-color:$bgcolor;
+    margin: 0px -15px;
+}
+.custom-navbar
+{
+    margin-bottom:0px;
+}
+.custom-navbar .navbar-brand{
+    font-size:$fontsize+10;
+    font-weight:bold;
+    color:$textcolor;
+    padding:18px 6px;
+    border-radius: 0px;
+}
+.custom-navbar{
+    .navbar-nav li.active a
+    {
+        background: none;
+
+        &:hover{
+            background: none;
+        }
+    }
+}
+.custom-jumbotron
+{
+    text-align: center;
+    background:$bannerbg url(../images/carousel-border.png) repeat-x bottom;
+    margin: 0px -15px;
+    h1{
+        color:$textcolor;
+        font-weight: bold;
+    }
+    p{
+        color: antiquewhite;
+    }
+    button{
+        background: $bgcolor;
+        color:$textcolor;
+        &:hover,
+        &.active{
+            background: $textcolor;
+            color: $bgcolor;
+        }
+    }
+} 
+.bodycontainer{
+    text-align: center;
+     h3
+    {
+        padding:30px 0px 10px 0px;
+        border-bottom: $line;
+        text-align: left;
+        font-weight: bold;
+    }
+    h2{
+        font-weight: bold;
+    }
+    p{
+        font-size: $fontsize;
+    }
+    h4{
+        margin: 40px 0px;
+        font-size: $fontsize+20;
+        font-weight:800;
+    }
+    .custom-row
+    {
+        margin-top: 30px;
+    }
+}
+.footer{
+    text-align: left;
+    background-color: $bgcolor;
+    padding:30px 0px;
+    .first
+    {
+        margin-left: 15px;
+        margin-bottom: 15px;;
+    }
+    .footer-container
+    {
+        ol
+    {
+        li
+        {
+            list-style: none;
+            border-bottom:$line;
+        }
+    }
+    }
+    .sizing .fa
+    {
+        font-size: $fontsize+15;
+    }
+    p
+    {
+        padding-top: 15px;
+    }
+ 
+}
+.footer2{
+    background-color:gray;
+    a{
+        text-decoration: none;
+        color:$textcolor;
+        margin: 25px ;
+        padding-right: 5px;
+        border-right:1px solid $textcolor;
+    }
+}
+
+
+
+
+@media(min-width:320px) and (max-width:480px){
+    .custom-jumbotron
+    {
+        padding:0px;
+        h1{
+            font-size:25px;
+        }
+        p{
+            font-size:20px;
+        }
+        .btn{
+            margin-bottom: 20px;
+        }
+    }
+    .bodycontainer .container
+    {
+        padding: 0px;
+        h4{
+            margin-top: 20px;
+            font-size: 25px;
+        }
+    }
+}

@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@400;700&family=Sarabun:wght@800&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@400;700&family=Sarabun:wght@800&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@400;700&family=Sarabun:wght@800&family=Source+Sans+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@400;700&family=Sarabun:wght@800&family=Source+Sans+Pro:wght@600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.titlesection {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.titlesection h2 {
+  font-size: 30px;
+  display: inline;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+}
+.titlesection p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.teasersection {
+  text-align: center;
+  position: relative;
+}
+.teasersection i {
+  font-size: 30px;
+  border: 1px solid #177ee5;
+  background-color: #177ee5;
+  color: #fff;
+  padding: 15px;
+  border-radius: 100%;
+  position: absolute;
+  top: -33px;
+  left: 40%;
+}
+.teasersection .teaser {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px lightgrey;
+  padding: 30px 30px;
+}
+.teasersection h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #177ee5;
+  border: none;
+  margin-top: 10px;
+}
+
+.headersection {
+  background-image: url("../assets/images/hero-bg.png");
+  background: #177ee5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headersection .custom-navbar {
+  background-color: #177ee5;
+  border-color: none !important;
+  padding: 20px 0px;
+  border-bottom: 1px solid #fff;
+  opacity: 1;
+  margin-bottom: 0px !important;
+  border-top: none;
+}
+.headersection .custom-navbar .navbar {
+  margin-bottom: 0;
+}
+.headersection .custom-navbar .navbar-brand {
+  display: inline-block;
+}
+.headersection .custom-navbar .navbar-brand img {
+  width: 31%;
+}
+.headersection .custom-navbar .navbar-nav {
+  margin-left: -7%;
+}
+.headersection .custom-navbar .navbar-nav li a {
+  color: #a2cbf5;
+  border: 5px solid #177ee5;
+}
+.headersection .custom-navbar .navbar-nav li a:hover {
+  border-bottom: 1px solid #fff;
+  Color: #fff;
+}
+.headersection .custom-carousel {
+  padding: 40px 0px;
+}
+.headersection .custom-carousel .carousel-inner {
+  background-color: #177ee5;
+  margin: 0px;
+  padding: 0px;
+}
+.headersection .custom-carousel .carousel-inner .item .banner-content {
+  margin-top: 40%;
+  color: #f7f9fb;
+}
+.headersection .custom-carousel .carousel-inner .item .banner-content h1 {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.headersection .custom-carousel .carousel-inner .item .banner-content p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+.headersection .custom-carousel .carousel-inner .item .banner-content .btn {
+  font-size: 15px;
+  padding: 10px 30px;
+  color: #000;
+}
+.headersection .custom-carousel .carousel-inner .item .banner-image {
+  width: 100%;
+}
+
+.Feature-section {
+  padding: 7% 0;
+}
+
+.about-ussection {
+  padding: 7% 0;
+  background-color: #f7f9fb;
+}
+.about-ussection .titlesection {
+  text-align: left;
+}
+.about-ussection .titlesection h3 {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 800;
+}
+.about-ussection .titlesection h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+.about-ussection .titlesection p {
+  margin-top: 20px;
+}
+.about-ussection .titlesection i {
+  font-size: 30px;
+  border: 1px solid #177ee5;
+  color: #177ee5;
+  padding: 16px;
+  margin: 15px 5px 15px 0;
+  border-radius: 100%;
+}
+.about-ussection .teasersection {
+  text-align: left;
+}
+.about-ussection .teasersection h3 {
+  margin: 0px;
+}
+.about-ussection .teasersection i {
+  position: none;
+  top: 0;
+  left: 0;
+  background: white;
+  color: #177ee5;
+  margin: 10px 0px;
+}
+.about-ussection .teasersection .staff {
+  margin: 20px 0px;
+}
+.about-ussection img {
+  width: 100%;
+}
+
+.department-section {
+  padding: 6% 0px;
+}
+.department-section .teasersection .teaserlist img {
+  width: 100%;
+  height: 30%;
+}
+.department-section .teasersection .teaser {
+  background-color: #f7f9fb;
+  box-shadow: none;
+  border-bottom: 4px solid #177ee5;
+  margin-bottom: 30px;
+  padding: 24px;
+}
+.department-section .teasersection .teaser i {
+  top: 43%;
+  background-color: #f7f9fb;
+  border: none;
+  color: #177ee5;
+}
+.department-section .teasersection .teaser h3 {
+  font-size: 20px;
+}
+
+.review-section {
+  background-color: #177ee5;
+  color: #fff;
+  padding: 6% 0;
+}
+.review-section .custom-carousel-indicators {
+  bottom: -50px;
+}
+.review-section .carousel-inner .clientreview {
+  background-color: #fff;
+  color: #000;
+  padding: 3% 6%;
+  border-radius: 10px;
+  position: relative;
+}
+.review-section .carousel-inner .clientreview i {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  color: #e6e7ff;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 35px;
+}
+.review-section .reviewer {
+  display: flex;
+  margin: 20px 0;
+}
+.review-section .reviewer img {
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.doctors-teamsection {
+  padding: 6% 0;
+}
+.doctors-teamsection .titlesection h2 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.doctors-teamsection .teasersection {
+  text-align: left;
+}
+.doctors-teamsection .teasersection .doctor {
+  margin: 15px 0px;
+}
+.doctors-teamsection .teasersection .doctor img {
+  width: 100%;
+}
+.doctors-teamsection .teasersection .doctor h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.doctors-teamsection .teasersection .doctor i {
+  top: 0;
+  left: 0;
+  position: unset;
+  color: #177ee5;
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+}
+.doctors-teamsection .teasersection .doctor span {
+  font-style: italic;
+  color: #a0a0a0;
+}
+.doctors-teamsection .teasersection .doctor a {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.facilities-section {
+  padding: 6% 0;
+  background-color: #f7f9fb;
+}
+.facilities-section .Equipments img {
+  width: 100%;
+}
+.facilities-section .Equipments img:hover { /* IE 9 */ /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.clientsection {
+  position: relative;
+  background-color: #177ee5;
+}
+.clientsection img {
+  width: 100%;
+}
+.clientsection a {
+  font-size: 30px;
+  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.6196078431);
+  position: absolute;
+  bottom: 18%;
+  color: #fff;
+  right: 3%;
+  text-decoration: none;
+  padding: 20px;
+}
+.clientsection h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+}
+.clientsection .appointment textarea {
+  margin-left: 15px;
+  padding: 0px;
+  width: 95%;
+}
+.clientsection .btn {
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.Question-section {
+  padding: 6% 0;
+}
+.Question-section .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.Question-section .accordion .active, .Question-section .accordion .accordion:hover {
+  background-color: #ccc;
+}
+.Question-section .accordion .panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.footersection {
+  background: url("../assets/images/footerwave.png") no-repeat 0px 0px/100%;
+  background-color: #177ee5;
+  color: #fff;
+  padding: 30px 0;
+}
+.footersection .titlesection {
+  padding: 20% 0px 0px 0px;
+  color: #fff;
+}
+.footersection .form-group {
+  text-align: center;
+  position: relative;
+}
+.footersection .form-group .form-control {
+  width: 45%;
+  text-align: center;
+  display: inline;
+  padding: 20px 0;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+.footersection button {
+  position: absolute;
+  background-color: #177ee5;
+  color: #fff;
+  top: 21px;
+  right: 26%;
+  border: 1px solid #fff;
+}
+.footersection .company {
+  margin-top: 20px;
+}
+.footersection .company img {
+  width: 30%;
+}
+.footersection .company p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+.footersection .company ul li {
+  display: inline;
+  margin: 0px 5px;
+}
+.footersection .company ul li i {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+  color: #177ee5;
+  border-radius: 100%;
+}
+.footersection h4 {
+  font-size: 25px;
+}
+.footersection .support ul li, .footersection .Usefullinks ul li, .footersection .Quick ul li {
+  display: block;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.subfooter {
+  text-align: center;
+  background-color: #177ee5;
+  color: #fff;
+  border-top: 1px solid #fff;
+  padding: 20px 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  .btn {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .headersection .custom-navbar .navbar-brand {
+    width: 70%;
+  }
+  .headersection .custom-carousel {
+    padding: 0;
+  }
+  .headersection .custom-carousel .carousel-inner .item .banner-content {
+    margin: 0px;
+  }
+  .headersection .custom-carousel .carousel-inner .item .banner-content p {
+    margin: 0;
+  }
+  .headersection .custom-carousel .carousel-inner .item .banner-content .btn {
+    margin: 0;
+  }
+  .headersection .custom-carousel .carousel-inner .item .banner-image img {
+    width: 75%;
+    margin: 10px 0;
+  }
+  .titlesection {
+    margin: 10px 0;
+  }
+  .Feature-section .teasersection .teaserlist .teaser {
+    margin-bottom: 50px;
+  }
+  .about-ussection .teasersection .staff {
+    text-align: left;
+  }
+  .about-ussection .teasersection .staff i {
+    display: block;
+    font-size: 10px;
+  }
+  .about-ussection .teasersection .staff h3 {
+    font-size: 18px;
+  }
+  .clientreview i {
+    top: 0 !important;
+    left: 4px !important;
+  }
+  .facilities-section .Equipments img {
+    margin: 10px 0;
+  }
+  .clientsection .btn {
+    margin: 10px 0px;
+  }
+  .clientsection .appointment textarea {
+    width: 90%;
+  }
+  .footersection .titlesection {
+    padding: 0;
+  }
+  .footersection .form-group .form-control {
+    padding: 18px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
