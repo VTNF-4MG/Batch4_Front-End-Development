@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+   
+</head>
+<body>
+    <!-- <button onclick="premitive()">click</button> -->
+    <!-- <p>ajith</p>
+    <p>soudhar</p>
+    <p>guru</p>
+    <p>karthi</p> -->
+    <!-- <button onclick=onClickEvent()>JavaScript onclick</button>
+    <span onmouseover=overEvent()>JavaScript onover</span>
+    <p onmouseout=mouseOutEvent()>JavaScript onout</p>
+    <p onmouseenter=mouseEnter()>Javascript enter</p>
+    <button onmousedown=mouseDownEvent()>isClicked</button>
+    <button onmouseup=mouseUpEvent()>Click on</button>
+    <input type="text" value="JavaScript onchange" onchange=onChangeEvent()>
+    <input type="text" onkeyup=keyUpEvent()>
+    <input type="text" onkeydown=keyDownEvent()>
+    <input type="text" id="example1" value="enter" onfocus=focusEvent()> -->
+
+
+    <!-- <p id="resize">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <input type="text" id="assign" value="" onchange=onchangeevent(event)> -->
+
+
+<!-- 
+    <button class="aji" onclick="clicked()">click</button>
+    <button class="aji" onclick="clicked()">click</button>
+    <button class="aji" onclick="clicked()">click</button>
+    <button class="aji" onclick="clicked()">click</button>
+    <button class="aji" onclick="clicked()">click</button>
+
+
+    <button class="ajith" alt="btn1">ajith1</button>
+    <button class="ajith" alt="btn2">ajith2</button>
+    <button class="ajith" alt="btn3">ajith3</button>
+    <button class="ajith" alt="btn4">ajith4</button>
+    <button class="ajith" alt="btn5">ajith5</button>
+
+    <p id="ajit">my name is ajith</p>
+    <button class="isclicked">chng</button> -->
+
+    <!-- <button  name="fst1">press</button>
+    <button  name="fst2">press</button>
+    <button  name="fst3">press</button>
+    <button  name="fst4">press</button>
+    <button  name="fst5">press</button>
+    <h1></h1>
+    <span name="ajith"></span>
+    <h2></h2>
+    <div title="ajikutty"></div> -->
+    <!-- <p id="larmi"><span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</span></p> -->
+    <!-- <input type="text" id="userInput"> Text input of product id from user -->
+    <!-- <button id="btn">Get Product Name</button> Button to invoke API request -->
+    <!-- <p id="productName"></p> Element used to display product name result from API -->
+
+    <!-- <p id ="demo"></p> -->
+    <!-- <div class="demo1"></div> -->
+
+    <style>
+        table {
+          border-spacing: 0;
+          width: 100%;
+          border: 1px solid #ddd;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 16px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #f2f2f2
+        }
+        </style>
+
+
+<p><button onclick="sortTable()">Sort</button></p>
+
+<table id="myTable">
+  <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Tamil</th>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>Social Science</th>
+                <th>Total</th>
+            </tr>
+  <tr>
+                <td>1</td>
+                <td>Ajith</td>
+                <td>45</td>
+                <td>56</td>
+                <td>86</td>
+                <td>84</td>
+                <td>45</td>
+                <td>432</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rajkumar</td>
+                <td>65</td>
+                <td>74</td>
+                <td>97</td>
+                <td>74</td>
+                <td>76</td>
+                <td>286</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gowtham</td>
+                <td>87</td>
+                <td>43</td>
+                <td>66</td>
+                <td>32</td>
+                <td>87</td>
+                <td>232</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Karthicdurai</td>
+                <td>65</td>
+                <td>86</td>
+                <td>44</td>
+                <td>74</td>
+                <td>80</td>
+                <td>432</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Nithya</td>
+                <td>76</td>
+                <td>45</td>
+                <td>76</td>
+                <td>53</td>
+                <td>99</td>
+                <td>423</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Porselvi</td>
+                <td>43</td>
+                <td>76</td>
+                <td>87</td>
+                <td>66</td>
+                <td>98</td>
+                <td>642</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Rishwana</td>
+                <td>87</td>
+                <td>54</td>
+                <td>76</td>
+                <td>46</td>
+                <td>97</td>
+                <td>544</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Seenu</td>
+                <td>34</td>
+                <td>45</td>
+                <td>87</td>
+                <td>95</td>
+                <td>76</td>
+                <td>563</td>
+            </tr>
+ 
+</table>
+
+
+
+    
+
+
+    <script src="./js/script.js"></script> 
+</body>
+</html>
