@@ -1,0 +1,436 @@
+* {
+  font-family: 'latoregular';
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'latoregular';
+  src: url("../assets/fonts/lato-regular-webfont.eot");
+  src: url("../assets/fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/lato-regular-webfont.woff2") format("woff2"), url("../assets/fonts/lato-regular-webfont.woff") format("woff"), url("../assets/fonts/lato-regular-webfont.ttf") format("truetype"), url("../assets/fonts/lato-regular-webfont.svg#latoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family:arial;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.fclear {
+  clear: both;
+}
+
+span {
+  border: 1px solid #50bb6f;
+  height: 2px;
+  width: 48px;
+  display: inline-block;
+  margin: 30px 0px;
+}
+
+.title {
+  text-align: center;
+  color: black;
+}
+
+.title h3 {
+  font-size: 50px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.teaser {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.custom-navbar .navbar-default {
+  background-color: #50bb6f;
+}
+
+.custom-navbar .navbar-default .navbar-nav {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 30px 0px;
+}
+
+.custom-navbar .navbar-default .navbar-nav a {
+  color: white;
+  font-size: 22px;
+  padding: 0px 15px;
+}
+
+.custom-navbar .navbar-default .navbar-nav a:hover, .custom-navbar .navbar-default .navbar-nav a.active {
+  color: red;
+  border-bottom: 4px solid white;
+  background: none;
+}
+
+.carouselsection {
+  background-color: #f9f9f9;
+}
+
+.carouselsection .custom-indicator li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #50bb6f;
+  left: 100px;
+  bottom: 10px;
+}
+
+.carouselsection .custom-carousel img {
+  height: 460px;
+  position: relative;
+}
+
+.carouselsection .custom-carousel .carousel-caption {
+  width: 36%;
+  position: absolute;
+  top: 38px;
+  left: 134px;
+}
+
+.carouselsection .custom-carousel .carousel-caption h3 {
+  color: black;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.carouselsection .custom-carousel .carousel-caption p {
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  margin: 30px 0px;
+}
+
+.carouselsection .custom-carousel .carousel-caption a {
+  border-radius: 20px;
+  background-color: #50bb6f;
+  padding: 10px 30px;
+}
+
+.aboutsection {
+  margin: 80px 0px;
+}
+
+.aboutsection .rightside {
+  padding: 0px 40px;
+}
+
+.aboutsection .rightside h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.teasersection {
+  background-color: #f9f9f9;
+  padding: 100px 0px;
+}
+
+.teasersection i {
+  font-size: 50px;
+  color: #50bb6f;
+}
+
+.teasersection h2 {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.teasersection p {
+  font-size: 20px;
+}
+
+.servicesection {
+  background-color: #50bb6f;
+  padding: 60px 0px;
+}
+
+.servicesection h3, .servicesection p {
+  color: white;
+}
+
+.machinesection {
+  margin: 60px 0px;
+  text-align: center;
+  position: relative;
+}
+
+.machinesection .teaser {
+  border: 1px solid lightgray;
+}
+
+.machinesection .teaser p {
+  font-size: 22px;
+  color: #50bb6f;
+  font-weight: bold;
+}
+
+.machinesection a {
+  border-radius: 20px;
+  background-color: #50bb6f;
+  padding: 10px 30px;
+  margin: 60px 0px;
+  text-align: center;
+  display: inline-block;
+}
+
+.machinesection .leftarrow, .machinesection .rightarrow {
+  font-size: 50px;
+  color: #50bb6f;
+  position: absolute;
+  top: 128px;
+}
+
+.machinesection .leftarrow {
+  left: 100px;
+}
+
+.machinesection .rightarrow {
+  right: 100px;
+}
+
+.teamsection {
+  background-color: #f9f9f9;
+}
+
+.teamsection .title {
+  padding: 60px 0px;
+}
+
+.teamsection h4 {
+  color: #50bb6f;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.teamsection i {
+  font-size: 20px;
+  border-radius: 100%;
+  padding: 10px 10px;
+  margin: 5px;
+  background: green;
+  color: white;
+}
+
+.teamsection .blue {
+  background: #395b98;
+}
+
+.teamsection .skyblue {
+  background-color: #2ca7e0;
+}
+
+.teamsection .orange {
+  background-color: #d95139;
+}
+
+.teamsection .lightblue {
+  background-color: #107bc1;
+}
+
+.teamsection .darkblue {
+  background-color: #4879a1;
+}
+
+.manusection {
+  background: url("../assets/images/parallax-1.jpg") repeat-y 0px 0px/100% 100%;
+  margin: 20px 0px;
+}
+
+.manusection .manu {
+  background: #000000ad;
+  height: 450px;
+}
+
+.manusection .title {
+  padding-top: 80px;
+}
+
+.manusection .title h3 {
+  color: white;
+}
+
+.manusection ul li {
+  display: inline-block;
+  margin: 0px 17px;
+}
+
+.pricingsection {
+  margin: 60px 0px;
+}
+
+.pricingsection h1 {
+  border-bottom: 1px solid grey;
+}
+
+.pricingsection .price {
+  border: 1px solid #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 0px;
+  -webkit-box-shadow: 0px 0px 2px;
+          box-shadow: 0px 0px 2px;
+}
+
+.pricingsection .price .box {
+  background-color: #f9f9f9;
+}
+
+.pricingsection .price .box h3 {
+  padding: 20px 0px;
+}
+
+.pricingsection .price .box h4 {
+  color: #50bb6f;
+}
+
+.pricingsection .price .boxes {
+  padding: 10px;
+}
+
+.pricingsection .price .boxes p {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+}
+
+.pricingsection .price a {
+  border-radius: 20px;
+  background-color: #50bb6f;
+  padding: 10px 40px;
+  display: inline-block;
+  color: white;
+  margin: 20px 0px;
+}
+
+.pricingsection .price .professional {
+  background-color: #50bb6f;
+}
+
+.pricingsection .price .professional h3 {
+  color: white;
+}
+
+.pricingsection .price .professional h4 {
+  color: white;
+}
+
+.testimonalsection {
+  background-color: #f9f9f9;
+  padding: 80px 0px;
+}
+
+.testimonalsection img {
+  border-radius: 100%;
+}
+
+.testimonalsection h5 {
+  color: #50bb6f;
+  font-weight: bold;
+}
+
+.testimonalsection p {
+  margin: 20px 0px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.joinsection {
+  margin: 80px 0px 30px 0px;
+}
+
+.joinsection h1 {
+  font-weight: bold;
+}
+
+.joinsection a {
+  border-radius: 20px;
+  background-color: #50bb6f;
+  padding: 10px 30px;
+  margin: 20px 0px;
+  text-align: center;
+  display: inline-block;
+}
+
+.footersection {
+  background-color: #313132;
+  padding: 60px 0px;
+}
+
+.footersection .media {
+  margin: 60px 0px;
+}
+
+.footersection .media i {
+  padding: 5px;
+  font-size: 20px;
+  color: grey;
+}
+
+.footersection .news h3 {
+  color: white;
+  border-bottom: 1px solid grey;
+}
+
+.footersection .news p {
+  color: grey;
+  margin: 30px 0px;
+}
+
+.footersection .news h2 {
+  font-size: 14px;
+  padding: 15px 60px 5px 5px;
+  color: #9b9292;
+  background: white;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.footersection .news a {
+  position: absolute;
+  right: 0%;
+  bottom: 3%;
+  border-radius: 20px;
+  background-color: #50bb6f;
+}
+
+.footersection .contact h3 {
+  color: white;
+  border-bottom: 1px solid grey;
+}
+
+.footersection .last {
+  margin: 20px 0px;
+}
+
+.footersection .last a {
+  color: white;
+}
+
+.footersection .number {
+  margin: 20px 0px;
+}
+
+.footersection .number li {
+  color: grey;
+  list-style-type: none;
+}
+
+.footersection .copy {
+  color: grey;
+}
+/*# sourceMappingURL=style.css.map */
