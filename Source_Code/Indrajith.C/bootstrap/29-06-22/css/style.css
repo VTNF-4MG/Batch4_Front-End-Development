@@ -1,0 +1,133 @@
+.border {
+  border: 1px solid red;
+}
+
+.row {
+  border: 0px solid red;
+}
+
+.child1, .child23 {
+  background-color: red;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child2, .child22 {
+  background-color: olive;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child3, .child21 {
+  background-color: gray;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child4, .child20 {
+  background-color: violet;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child5, .child19 {
+  background-color: rgb(119, 32, 218);
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child6 {
+  background-color: rebeccapurple;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child7 {
+  background-color: rgb(216, 61, 61);
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child8 {
+  background-color: orange;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child9 {
+  border: 1px solid black;
+  text-align: center;
+  background-color: maroon;
+  padding: 20px 0px;
+}
+
+.child10 {
+  border: 1px solid black;
+  text-align: center;
+  background-color: yellowgreen;
+  padding: 20px 0px;
+}
+
+.child11 {
+  background-color: indigo;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child12 {
+  background-color: khaki;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child13 {
+  background-color: darkgreen;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child14, .child27 {
+  background-color: sandybrown;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child15, .child28 {
+  background-color: gold;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child16, .child24 {
+  background-color: purple;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child17, .child25 {
+  background-color: lawngreen;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.child18, .child26 {
+  background-color: hotpink;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+}/*# sourceMappingURL=style.css.map */

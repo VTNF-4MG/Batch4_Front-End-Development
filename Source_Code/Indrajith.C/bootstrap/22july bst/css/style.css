@@ -1,0 +1,470 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "poppinsregular";
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #496dff;
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.titlesection {
+  padding: 1% 0;
+}
+.titlesection h3 {
+  font-size: 20px;
+  color: blue;
+  font-family: "poppinsbold";
+  font-weight: bold;
+}
+.titlesection h2 {
+  font-size: 30px;
+  font-family: "poppinsbold";
+  font-weight: 700;
+}
+.titlesection p {
+  font-size: 17px;
+}
+
+.teasersection .teaserlist i {
+  font-size: 50px;
+  color: blue;
+}
+.teasersection .teaserlist h3 {
+  font-size: 35px;
+  color: black;
+  display: inline-block;
+}
+.teasersection .teaserlist span {
+  font-size: 70px;
+  font-weight: 600;
+  color: #eaebeb;
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+.headersection {
+  background: #f1f8ff;
+  position: relative;
+  overflow: hidden;
+}
+.headersection::before {
+  content: "";
+  position: absolute;
+  border-width: 0px 780px 500px 0px;
+  border-style: solid;
+  border-color: transparent #e0ebff transparent transparent;
+  top: 0px;
+  right: 0px;
+}
+.headersection .custom-navbar {
+  background: transparent;
+  margin: 0;
+  border: none;
+  padding: 30px;
+}
+.headersection .custom-navbar .navbar-inverse .navbar-nav {
+  background-color: none;
+  color: blue;
+}
+.headersection .custom-navbar .navbar-brand {
+  color: #496dff;
+  font-size: 25px;
+  font-family: "poppinsbold";
+  font-weight: bold;
+}
+.headersection .custom-navbar .nav li a {
+  color: #000;
+}
+.headersection .custom-navbar .nav li a:hover {
+  color: #496dff;
+}
+.headersection .custom-navbar .nav .btn {
+  border-radius: 0px;
+}
+.headersection .herobanner {
+  padding: 6% 0 10% 0;
+}
+.headersection .herobanner .bannercontent h1 {
+  font-size: 50px;
+  color: #496dff;
+}
+.headersection .herobanner .bannercontent p {
+  margin: 20px 0px;
+}
+.headersection .herobanner .embed-responsive {
+  position: relative;
+}
+.headersection .herobanner .embed-responsive i {
+  font-size: 40px;
+  color: black;
+}
+.headersection .herobanner .embed-responsive i::before {
+  content: "";
+  position: absolute;
+  border-width: 0px 180px 123px 0px;
+  border-style: solid;
+  border-color: transparent #496dff transparent transparent;
+  top: 0px;
+  right: 0px;
+  opacity: 0.5;
+}
+
+.worksection {
+  padding: 8% 0;
+}
+.worksection .titlesection {
+  margin-bottom: 30px;
+}
+.worksection .teasersection p {
+  font-size: 18px;
+}
+
+.clientsection {
+  background-color: #f1f8ff;
+  padding: 5% 10%;
+}
+.clientsection ul li img {
+  width: 23%;
+}
+
+.servicesection {
+  padding: 6% 0;
+}
+.servicesection .titlesection {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.servicesection .teasersection .teaserlist {
+  text-align: center;
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+.servicesection .teasersection .teaserlist i {
+  text-align: center;
+}
+.servicesection .teasersection .teaserlist p {
+  text-align: center;
+}
+
+.portfoliosection {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 5% 0;
+}
+.portfoliosection .titlesection {
+  text-align: left;
+}
+.portfoliosection ul li {
+  display: inline;
+  font-size: 20px;
+  margin: 0 17px;
+}
+.portfoliosection ul a {
+  color: black;
+  text-decoration: none;
+  text-align: right;
+}
+.portfoliosection ul a:hover {
+  color: blue;
+}
+.portfoliosection img {
+  width: 100%;
+  margin: 5px;
+}
+.portfoliosection .btn {
+  margin: 30px 0px;
+}
+
+.projectsection {
+  text-align: center;
+  padding: 8% 0;
+}
+.projectsection .teasersection {
+  box-shadow: 0px 0px 20px lightgrey;
+  padding: 30px;
+  margin: 10px 0px;
+}
+.projectsection .teasersection i {
+  font-size: 40px;
+  display: block;
+  color: blue;
+}
+.projectsection .teasersection h3 {
+  font-size: 50px;
+  display: block;
+}
+.projectsection .teasersection span {
+  font-size: 20px;
+}
+.projectsection h2 {
+  font-size: 25px;
+  text-align: left;
+}
+.projectsection P {
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+}
+.projectsection ul {
+  padding: 0px;
+}
+.projectsection ul li {
+  text-align: left;
+  font-size: 18px;
+  display: block;
+}
+.projectsection ul li i {
+  font-size: 16px;
+  margin: 10px 5px 10px 0px;
+  padding: 1px;
+  border: 1px solid blue;
+  border-radius: 100%;
+  color: blue;
+}
+.projectsection .button {
+  text-align: left;
+}
+
+.newssection {
+  padding: 6% 0;
+  background-color: #f6f6f6;
+}
+.newssection .teasersection {
+  background: #fff;
+  margin: 20px 0px;
+}
+.newssection .teasersection img {
+  width: 100%;
+}
+.newssection .teasersection .servicesectioninner {
+  padding: 15px;
+}
+.newssection .teasersection .servicesectioninner i {
+  font-size: 20px;
+  margin: 10px 5px 10px 0px;
+  color: blue;
+}
+.newssection .teasersection .servicesectioninner span {
+  margin: 10px 0px;
+  display: inline-block;
+  font-size: 18px;
+}
+.newssection .teasersection .servicesectioninner h3 {
+  font-size: 20px;
+}
+
+.happyclientsection {
+  padding: 6% 0;
+}
+.happyclientsection .teasersection .commandsection {
+  border: 1px solid grey;
+}
+.happyclientsection .teasersection .commandsection i {
+  font-size: 40px;
+}
+.happyclientsection .teasersection .commandsection .quote {
+  padding: 20px;
+}
+.happyclientsection .teasersection .commandsection .quote p {
+  margin: 15px 0px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.happyclientsection .teasersection .commandsection .quote .quotation {
+  text-align: right;
+}
+.happyclientsection .teasersection .commandsection .ratingsection {
+  background-color: #f1f8ff;
+  padding: 30px 0px;
+}
+.happyclientsection .teasersection .commandsection .ratingsection .ceoboys {
+  text-align: right;
+}
+.happyclientsection .teasersection .commandsection .ratingsection .ceoboys img {
+  border-radius: 100%;
+}
+.happyclientsection .teasersection .commandsection .ratingsection h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.happyclientsection .teasersection .commandsection .ratingsection span {
+  display: block;
+}
+.happyclientsection .teasersection .commandsection .ratingsection i {
+  font-size: 25px;
+  color: blue;
+}
+
+.contactsection {
+  padding: 6% 0;
+}
+.contactsection .teasersection {
+  text-align: center;
+}
+.contactsection .teasersection .teaser {
+  border: 1px solid lightgrey;
+  padding: 40px 0px;
+}
+.contactsection .teasersection .teaser i {
+  font-size: 40px;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 100%;
+}
+.contactsection .teasersection .teaser h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contactsection .form-map {
+  margin: 60px 0px;
+}
+.contactsection .form-map .formgroup {
+  padding: 0px 20px 0px 0px;
+}
+.contactsection .form-map .formgroup .form-control {
+  margin: 20px 0;
+  background-color: #f1f8ff;
+  padding: 22px 20px;
+}
+.contactsection .form-map .btn {
+  font-size: 15px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+
+.footersection {
+  background-color: #f1f8ff;
+  padding: 6% 0;
+}
+.footersection .footerinner span {
+  border: 2px solid blue;
+  display: inline-block;
+  width: 50px;
+}
+.footersection .footerinner h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.footersection .footerinner p {
+  font-size: 18px;
+}
+.footersection .footerinner ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footersection .footerinner ul li {
+  list-style: none;
+  margin: 10px 0px;
+  display: block;
+}
+.footersection .footerinner .workinginfo ul li {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #496dff;
+  background-color: #496dff;
+  padding: 5px;
+  border-radius: 100%;
+}
+.footersection .footerinner .subscribe input {
+  margin: 15px 0px;
+  padding: 10px;
+  background-color: #f1f8ff;
+  border: 1px solid #f0eded;
+  box-shadow: 0px 0px 3px #f0eded;
+  background: #dcdcf7;
+}
+.footersection .footerinner .subscribe .btn {
+  margin-top: 20px;
+}
+
+.footerbottom {
+  text-align: center;
+  padding: 7% 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .contactsection iframe {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  i {
+    font-size: 15px;
+  }
+  .teasersection .teaserlist {
+    padding: 10px;
+  }
+  .teasersection .teaserlist i {
+    font-size: 30px;
+  }
+  .teasersection .teaserlist span {
+    font-size: 30px;
+    display: block;
+    margin: 8px 0px;
+  }
+  .headersection .custom-navbar {
+    padding: 0px;
+  }
+  .headersection .herobanner .bannercontent h1 {
+    font-size: 40px;
+  }
+  .headersection .herobanner .bannercontent .btn {
+    padding: 10px 15px;
+  }
+  .portfoliosection .titlesection ul li {
+    display: block;
+  }
+  .portfoliosection .titlesection ul li a {
+    text-align: left;
+  }
+  .projectsection {
+    padding: 10px !important;
+  }
+  .projectsection .teasersection {
+    padding: 20px;
+  }
+  .happyclientsection .teasersection .commandsection .ratingsection {
+    text-align: center;
+  }
+  .happyclientsection .teasersection .commandsection .ratingsection .ceoboys {
+    text-align: center;
+  }
+  .contactsection .teasersection .teaser {
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .contactsection .teasersection .teaser p {
+    text-align: center !important;
+  }
+  .footersection {
+    padding: 20px 0px;
+  }
+  .footersection .footerinner .subscribe input {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,67 @@
+.border {
+  border: 1px solid red;
+}
+
+.row {
+  border: 0px solid red;
+}
+
+.child1 {
+  background-color: pink;
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 30px;
+}
+
+.body h3 {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.child2 {
+  border: 1px solid red;
+  padding: 40px;
+  background-color: blueviolet;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.child4 {
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.child5 {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.child6 {
+  border: 1px solid red;
+  padding: 40px;
+  background-color: blueviolet;
+  margin-right: 30px;
+  margin-bottom: 80px;
+}
+
+.child7 {
+  background-color: gray;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .child2 {
+    margin-left: 0px;
+  }
+  .body h3, .child5 {
+    padding-left: 0px;
+  }
+  .child4 {
+    padding-right: 0px;
+  }
+  .child6 {
+    margin-right: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */

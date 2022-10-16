@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@400;700&family=Sarabun:wght@800&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@400;700&family=Sarabun:wght@800&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@400;700&family=Sarabun:wght@800&family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@400;700&family=Sarabun:wght@800&family=Source+Sans+Pro:wght@600&display=swap');
+$font-size:20px;
+$primarycolor:#177ee5;
+$secondarycolor:#f7f9fb;
+*{
+   
+    margin:0px;
+    padding: 0px;
+   
+}
+body{
+    font-family: 'Source Sans Pro'; 
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.titlesection{
+    text-align: center;
+    padding-bottom:5%;
+    h2{
+        font-size: $font-size+10px;
+        display: inline;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 900;
+    }
+    p{
+        font-size: $font-size - 2px;
+        line-height: 25px;
+    }
+
+}
+.teasersection{
+    text-align: center;
+    position: relative;
+    i{
+        font-size: $font-size+10px;
+        border:1px solid $primarycolor;
+        background-color: $primarycolor;
+        color:#fff;
+        padding:15px;
+        border-radius: 100%;
+        position: absolute;
+        top:-33px;
+        left:40%;
+    }
+    .teaser{
+        background-color: #fff;
+        box-shadow: 0px 0px 20px lightgrey;
+        padding:30px 30px;
+    }
+    h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight:600;
+    }
+}
+.btn{
+    border-radius: 25px;
+    padding:10px 20px;
+    color:$primarycolor;
+    border:none;
+    margin-top: 10px;
+}
+.headersection{
+    background-image: url("../assets/images/hero-bg.png");
+    background: $primarycolor;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .custom-navbar{
+        background-color: $primarycolor;
+        border-color:none!important;
+        padding: 20px 0px;
+        border-bottom: 1px solid #fff;
+        opacity:1;
+        margin-bottom: 0px !important;
+        border-top:none;
+        .navbar{
+            margin-bottom:0;
+        }
+        .navbar-brand{
+            display:inline-block;
+            img{
+                width: 31%;
+            }
+        }
+        .navbar-nav{
+            margin-left: -7%;
+                li{
+                    a{
+                        color:#a2cbf5;
+                        border:5px solid $primarycolor;
+                        &:hover{
+                            border-bottom: 1px solid #fff;
+                            Color:#fff;
+                        }
+                    }
+                }
+        }
+    }
+    .custom-carousel{
+        padding:40px 0px;
+        .carousel-inner{
+            background-color: $primarycolor;
+            margin:0px;
+            padding: 0px;
+            .item{
+                .banner-content{
+                    margin-top: 40%;
+                    color:$secondarycolor;
+                    h1{
+                        font-size: 70px;
+                        font-weight:bold ;
+                        font-family: 'Source Sans Pro', sans-serif
+                    }
+                    p{
+                        font-size: $font-size;
+                        margin:30px 0;
+                    }
+                    .btn{
+                        font-size: 15px;
+                        padding:10px 30px;
+                        color: #000;
+                    }
+                }
+                .banner-image{
+                    width:100%;
+                }
+            }
+        }
+        
+    }
+    
+}
+.Feature-section{
+    padding: 7% 0;
+}
+.about-ussection{
+    padding:7% 0;
+    background-color: $secondarycolor;
+    .titlesection{
+        text-align: left;
+        h3{
+            font-size:$font-size;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight:800;
+            
+        }
+        h2{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: $font-size+15px;
+            font-weight: 800;
+        }
+        p{
+            margin-top: 20px;
+        }
+       
+    }
+    .teasersection{
+        text-align: left;
+        h3{
+            margin: 0px;
+        }
+        .staff{
+            margin:20px 0px;
+        }
+    }
+    img{
+        width:100%;
+    }
+}
+.department-section{
+    padding:6% 0px;
+    .teasersection{ 
+        .teaserlist{
+            img{
+                width:100%;
+                height:30%;
+            }
+        }
+        .teaser{
+            background-color: $secondarycolor;
+            box-shadow: none;
+            border-bottom: 4px solid $primarycolor;
+            margin-bottom: 30px;
+            padding:24px;
+            i{
+                top:43%;
+                background-color: $secondarycolor;
+                border:none;
+                color: $primarycolor;
+               
+
+            }
+            h3{
+                font-size: $font-size;
+            }
+        }
+    }
+      
+}
+.review-section{
+    background-color: $primarycolor;
+    color:#fff;
+    padding:6% 0;
+    .custom-carousel-indicators{
+        bottom:-50px;
+    }
+    .carousel-inner{
+        .clientreview{
+            background-color: #fff;
+            color:#000;
+            padding:3% 6%;
+            border-radius: 10px;
+            position: relative;
+        i{
+            position: absolute;
+            top:18px;
+            left:22px;
+            color:#e6e7ff;
+            border-radius: 0;
+            border:none;
+            background-color:transparent;
+            font-size: 35px;
+        }
+    }
+    }
+    
+    .reviewer{
+        display: flex;
+        margin:20px 0;
+        img{
+            border-radius: 100%;
+            margin-right: 10px;
+        }
+ 
+    }
+}
+.doctors-teamsection{
+    padding:6% 0;
+    .titlesection{
+        h2{
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+    }
+    .teasersection{
+        text-align: left;
+        .doctor{
+            margin:15px 0px;
+            img{
+                width:100%;
+            }
+            h3{
+                font-size: $font-size - 2px;
+                font-weight:700;
+            }
+            i{
+                top:0;
+                left: 0;
+                position:unset;
+                color:$primarycolor;
+                background-color: #fff;
+                border:none;
+                font-size: $font-size;
+            }
+            span{
+                font-style: italic;
+                color:#a0a0a0;
+            }
+            a{
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+       
+    }
+}
+.facilities-section{
+    padding:6% 0;
+    background-color: $secondarycolor;
+    .Equipments{
+        img{
+            width:100%;
+        }
+        img:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.2); 
+          }
+    }
+}
+.clientsection{
+    position: relative;
+    background-color: $primarycolor;
+    img{
+        width:100%;
+    }
+    a{
+        font-size: $font-size +10px;
+        border:1px solid red;
+        background-color:#0000009e;
+        position: absolute;
+        bottom: 18%;
+        color:#fff;
+        right:3%;
+        text-decoration: none;
+        padding: 20px;
+
+    }
+    h2{
+        font-size: $font-size + 20px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        color:#fff;
+    }
+    .appointment{
+        textarea{
+             margin-left: 15px;
+             padding: 0px;
+             width:95%;
+        }
+    }
+    .btn{
+        border-radius: 10px;
+        font-weight: 600;
+    }
+}
+.Question-section{
+    padding:6% 0;
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        .active, .accordion:hover {
+            background-color: #ccc;
+          }
+          .panel {
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+        }  
+    }
+}
+.footersection{
+    background: url("../assets/images/footerwave.png") no-repeat 0px 0px /100%;
+    background-color: $primarycolor;
+    color:#fff;
+    padding: 30px 0;
+    .titlesection{
+        padding:20% 0px 0px 0px;
+        color:#fff;
+    }
+    .form-group{
+        text-align: center;
+        position:relative;
+        .form-control{
+            width:45%;
+            text-align: center;
+            display:inline;
+            padding:20px 0;
+            border-radius: 20px;
+            margin: 30px 0;
+        }
+    }
+    button{
+        position: absolute;
+        background-color:$primarycolor;
+        color:#fff;
+        top:21px;
+        right:26%;
+        border:1px solid #fff;
+
+    }
+    .company{
+        margin-top:20px;
+        img{
+            width: 30%;
+        }
+        p{
+            font-size: 16px;
+            margin: 20px 0;
+        }
+        ul{
+            li{
+                display: inline;
+                margin:0px 5px;
+                i{
+                list-style: none;
+                display:inline-block;
+                padding: 10px;
+                background-color: #fff;
+                color:$primarycolor;
+                border-radius: 100%;
+                }
+            }
+        }
+    }
+   h4{
+    font-size: $font-size + 5px;
+   }
+   .support, .Usefullinks ,.Quick {
+    ul{
+        li{
+            display: block;
+            font-size: 15px;
+            margin:10px 0;
+
+        }
+    }
+   }
+}
+.subfooter{
+    text-align: center;
+    background-color: $primarycolor;
+    color: #fff;
+    border-top:1px solid #fff;
+    padding:20px 0;
+}
+
+
+
+@media(min-width:320px) and (max-width:480px){
+
+    h1{
+        font-size: 30px !important;
+    }
+    h2{
+        font-size: 25px!important;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    .btn{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .headersection{
+        .custom-navbar{
+            .navbar-brand{
+                width:70%
+            }
+        }
+        .custom-carousel{
+            padding:0;
+            .carousel-inner{
+                .item{
+                    .banner-content{
+                        margin:0px;
+                        p{
+                            margin: 0;
+                        }
+                        .btn{
+                            margin:0;
+                        }
+                    }
+                    .banner-image{
+                        img{
+                            width: 75%;
+                            margin:10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .titlesection{
+        margin:10px 0;
+
+    }
+    .Feature-section{
+        .teasersection{
+            .teaserlist{
+                .teaser{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+    .about-ussection{
+        .teasersection{
+                .staff{
+            
+                    font-size: 20px;
+                }
+                h3{
+                    font-size: 18px;
+                }
+            }
+           
+        }
+    }
+    .clientreview{
+        i{
+            top: 0 !important;
+            left:4px!important;
+        }
+    }
+    .facilities-section{
+        .Equipments{
+            img{
+                margin:10px 0;
+            }
+        }
+    }
+    .clientsection{
+        .btn{
+            margin:10px 0px;
+        }
+        .appointment{
+            textarea{
+                width:90%;
+            }
+        }
+    }
+    .footersection{
+        .titlesection{
+            padding: 0;
+        }
+        .form-group{
+            .form-control{
+                padding:18px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppinsregular";
+}
+
+.titlesection span {
+  width: 50px;
+  border: 1px solid #2586e0;
+  display: inline-block;
+}
+.titlesection h2 {
+  font-weight: 600;
+}
+
+.custom-navbar {
+  background-color: #2586e0;
+  border: none;
+  padding: 1% 0 2% 0;
+  margin-bottom: 0;
+  position: relative;
+}
+.custom-navbar .navbar-nav li {
+  margin: 20px 0;
+}
+.custom-navbar .navbar-nav li a {
+  color: #ffffff;
+}
+.custom-navbar .navbar-nav li a:hover {
+  background-color: #00098c;
+  border-radius: 30px;
+}
+
+.banner-section {
+  background: url("../assets/images/slider2_2048x.png") no-repeat 0px 0px/100%;
+  height: 485px;
+  width: 100%;
+  padding: 2% 0;
+}
+.banner-section .custom-carousel .carousel-inner .banner-content {
+  text-align: center;
+  margin: 20% 0;
+}
+.banner-section .custom-carousel .carousel-inner .banner-content h2 {
+  font-size: 58px;
+  text-align: right;
+  font-family: "poppinsbold";
+}
+.banner-section .custom-carousel .carousel-inner .banner-content h2 span {
+  color: #2586e0;
+}
+.banner-section .custom-carousel .carousel-inner .banner-content h3 {
+  display: inline;
+  font-size: 28px;
+  font-family: "poppinsmedium";
+}
+.banner-section .custom-carousel .carousel-inner .banner-content p {
+  font-size: 16px;
+}
+.banner-section .custom-carousel .carousel-inner .banner-content .btn {
+  background-color: #2586e0;
+  color: #ffffff;
+}
+
+.ourservices {
+  position: relative;
+  padding: 7% 0;
+  color: #ffffff;
+}
+.ourservices .bgcolor {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  text-align: center;
+}
+.ourservices .derma .bgcolor {
+  background-color: rgba(37, 134, 224, 0.7294117647);
+  padding: 50px 59px;
+}
+.ourservices .lab .bgcolor {
+  background-color: rgba(255, 69, 0, 0.7098039216);
+  padding: 50px 71px;
+}
+.ourservices .Medicine .bgcolor {
+  background-color: rgba(0, 0, 255, 0.568627451);
+  padding: 50px 92px;
+}
+.ourservices .injection .bgcolor {
+  background-color: rgba(144, 238, 144, 0.7019607843);
+  padding: 50px 85px;
+}
+
+.product-section {
+  text-align: center;
+  padding: 4% 0;
+}
+.product-section .titlesection span {
+  width: 50px;
+  border: 1px solid #2586e0;
+}
+.product-section span {
+  display: inline-block;
+  border: none;
+  text-decoration: line-through;
+}
+.product-section h4 {
+  font-size: 14px !important;
+}
+.product-section h6 {
+  display: contents;
+  font-size: 18px;
+  color: #2586e0;
+}
+.product-section .custom-tabs {
+  text-align: center;
+  border: none !important;
+}
+.product-section .custom-tabs li {
+  float: none;
+  display: inline-block;
+}
+.product-section .custom-tabs li a {
+  text-transform: uppercase;
+  margin: 10px 0;
+  border: none;
+  font-size: 15px;
+}
+.product-section .custom-tabs li a:hover, .product-section .custom-tabs li a.active {
+  background-color: #2586e0;
+}
+.product-section .tab-content .equipment {
+  position: relative;
+  margin: 20px 0;
+}
+.product-section .tab-content .equipment img {
+  width: 100%;
+}
+.product-section .tab-content .equipment .rating {
+  display: inline;
+  position: absolute;
+  bottom: 80px;
+  left: 35%;
+}
+.product-section .tab-content .equipment .rating h6 {
+  display: contents !important;
+}
+.product-section .tab-content .equipment .rating i {
+  color: #fec42d;
+}
+.product-section .tab-content .equipment .rating .grey {
+  color: #cccccc;
+}
+.product-section .tab-content .equipment button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  padding: 12px 7px;
+  border-radius: 100%;
+  border: none;
+  background-color: #7fbc1e;
+  color: #ffffff;
+}
+.product-section .tab-content .equipment .sold {
+  border-radius: 4px;
+  background: #c92c2c;
+  padding: 5px 7px;
+  left: 72%;
+  font-size: 10px;
+}
+
+.timersection {
+  background: url("../assets/images/banner2.png") no-repeat 0px 0px/100%;
+  height: 614px;
+}
+.timersection .bannercontent {
+  text-align: center;
+  padding: 12% 0;
+}
+.timersection .bannercontent span {
+  color: #2586e0;
+  font-size: 50px;
+}
+.timersection .bannercontent h3 {
+  font-size: 50px;
+}
+.timersection .bannercontent h2 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.timersection .bannercontent h5 {
+  font-size: 23px;
+  border: 1px solid grey;
+  padding: 20px 10px;
+  display: inline;
+}
+.timersection .bannercontent p {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 50px;
+}
+.timersection .bannercontent button {
+  background-color: #2586e0;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.healthsection {
+  padding: 70px 0;
+}
+
+.deals-section {
+  padding: 7% 0;
+  text-align: center;
+}
+.deals-section img {
+  position: relative;
+}
+.deals-section p {
+  position: absolute;
+  top: 63%;
+  left: 26%;
+  font-size: 15px;
+  border: 1px solid grey;
+  padding: 10px;
+  background: #fff;
+}
+.deals-section .rating {
+  color: #fec42d;
+}
+.deals-section .rating .grey {
+  color: #cccccc;
+}
+.deals-section span {
+  text-decoration: line-through;
+}
+.deals-section h6 {
+  display: contents;
+  font-size: 18px;
+  color: #2586e0;
+}
+
+.aboutus {
+  background-color: #f8f8f8;
+  padding: 70px 0;
+}
+.aboutus .letter {
+  border: 5px solid #eeeeee;
+  padding: 30px;
+  position: relative;
+  z-index: 0;
+}
+.aboutus .letter h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.aboutus .letter h2 {
+  font-size: 28px;
+  color: #2586e0;
+  font-family: "poppinsbold";
+}
+.aboutus .letter i {
+  font-size: 30px;
+  color: #2586e0;
+  margin: 10px 0;
+}
+.aboutus .letter span {
+  margin: 0 20px;
+}
+.aboutus .letter .formgroup {
+  background-color: #ffffff;
+  margin: 30px 0;
+  border: none;
+}
+.aboutus .letter a {
+  border: 1px solid #2586e0;
+  background-color: #2586e0;
+  color: #ffffff;
+  padding: 3% 37%;
+  text-decoration: none;
+}
+.aboutus .letter img {
+  margin-bottom: 34px;
+}
+.aboutus .letter .hiddenbox {
+  width: 10%;
+  height: 80%;
+  border: 0px solid red;
+  position: absolute;
+  top: 0;
+  left: -16px;
+  background-color: #f8f8f8;
+}
+.aboutus .letter .hider {
+  width: 60%;
+  height: 10%;
+  position: absolute;
+  border: 0px solid red;
+  top: -22px;
+  left: -10px;
+  background-color: #f8f8f8;
+}
+.aboutus .option {
+  padding: 20% 0;
+}
+.aboutus .option h2 {
+  font-family: "poppinsbold";
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutus .option .experience {
+  margin: 10px 0;
+}
+.aboutus .option .experience span {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2586e0;
+}
+.aboutus .option .experience p {
+  font-size: 16px;
+}
+.aboutus ul {
+  margin: 70px 0 0 0;
+}
+.aboutus ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 20px 28px;
+}
+
+.latestnews-section {
+  background: url("../assets/images/blogbachground.png") no-repeat 0px 0px/100%;
+  height: 515px;
+  padding: 7% 0;
+}
+.latestnews-section .custom-carousel .carousel-indicators {
+  width: 200px;
+  bottom: 0px;
+}
+.latestnews-section .custom-carousel .carousel-indicators li {
+  width: 38px;
+  border-radius: 2px;
+  height: 5px;
+}
+.latestnews-section .custom-carousel .webdesigner {
+  padding: 7% 0;
+  color: #ffffff;
+}
+.latestnews-section .custom-carousel .webdesigner i {
+  font-size: 20px;
+  color: #000000;
+  top: -33px;
+  left: 40%;
+  position: absolute;
+}
+.latestnews-section .custom-carousel .webdesigner p {
+  width: 40%;
+  font-family: "poppinsitalic";
+  font-size: 16px;
+}
+.latestnews-section .custom-carousel .webdesigner img {
+  border-radius: 100%;
+  margin-top: 15px;
+}
+.latestnews-section .custom-carousel .webdesigner .john {
+  display: inline-block;
+}
+.latestnews-section .custom-carousel .webdesigner .john h2 {
+  font-size: 40px;
+}
+.latestnews-section .custom-carousel .webdesigner .john h3 {
+  font-size: 18px;
+  color: #000000;
+  margin: 0 5px;
+}
+.latestnews-section .titlesection {
+  color: #ffffff;
+  text-align: center;
+}
+.latestnews-section .titlesection span {
+  border: 1px solid #000000;
+}
+.latestnews-section .germ-protection {
+  margin: 10px 0px;
+  color: #ffffff;
+}
+.latestnews-section .germ-protection img {
+  border-radius: 100%;
+}
+.latestnews-section .germ-protection span {
+  margin: 15px 0;
+  padding: 0px 5px;
+}
+.latestnews-section .germ-protection p {
+  margin: 15px 0 0 0;
+}
+
+.footer-section {
+  background-color: #000000;
+  padding: 60px 0;
+  color: #d7d7d7;
+}
+.footer-section .medixs p {
+  margin: 20px 0;
+  line-height: 30px;
+}
+.footer-section .medixs ul li {
+  display: inline;
+  padding: 0 10px 0 0;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+.footer-section .account h4, .footer-section .information h4, .footer-section .store h4 {
+  border-bottom: 1px solid #f8f8f8;
+  padding: 0 0 20px 0;
+  color: #ffffff;
+}
+.footer-section .account ul li, .footer-section .information ul li, .footer-section .store ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+.footer-section .account ul li i, .footer-section .information ul li i, .footer-section .store ul li i {
+  margin-right: 10px;
+}
+
+.subfooter {
+  background-color: #000000;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+}
+.subfooter i {
+  margin: 20px 0;
+}
+.subfooter img {
+  margin: 20px 0;
+}/*# sourceMappingURL=style.css.map */
