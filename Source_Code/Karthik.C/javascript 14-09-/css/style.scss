@@ -1,0 +1,700 @@
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../assets/fonts/poppins-bold-webfont.eot');
+    src: url('../assets/fonts/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/poppins-bold-webfont.woff') format('woff'),
+         url('../assets/fonts/poppins-bold-webfont.ttf') format('truetype'),
+         url('../assets/fonts/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../assets/fonts/poppins-regular-webfont.eot');
+    src: url('../assets/fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/poppins-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/poppins-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../assets/fonts/poppins-semibold-webfont.eot');
+    src: url('../assets/fonts/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/poppins-semibold-webfont.woff') format('woff'),
+         url('../assets/fonts/poppins-semibold-webfont.ttf') format('truetype'),
+         url('../assets/fonts/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: "poppinsregular";
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  $border:1px solid red;
+  $btncolor:#f8ea49;
+  $primarycolor:#ffffff;
+  $secondarycolor:#151515;
+  $bgcolor:#eff3f8;
+
+  
+  /**global**/
+  a{
+    display: inline-block;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  /**custombutton**/
+  .custombutton{
+    background: $btncolor;
+    color: #454220;
+    padding: 20px 40px 18px 40px;
+    margin: 15px 0px;
+    font-size: 14px;
+    font-family: 'poppinsbold';
+    border-color: none;
+    border-radius: 10px;
+  }
+  .custombutton:hover{
+    border-color: none;
+  }
+  /**titlesection**/
+  .titlesection{
+    text-align: center;
+    &__heading{
+        color: $secondarycolor;
+        text-transform: capitalize;
+        font-size: 45px;
+        font-weight: 600;
+        padding: 20px 0px;
+        font-family: Comfortaa;
+    }
+    &__description{
+        color:#7e7e7f;
+        font-size: 18px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+  }
+    /**teaserlist**/
+  .teaserlist{
+    text-align: center;
+    &__pretitle{
+        color: $secondarycolor;
+        font-size: 28px;
+        padding: 5px 0px;
+        font-weight: 600;
+        font-family: Comfortaa;
+    }
+    &__description{
+        color: #878787;
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    &__link{
+        color: #a3a3a3;
+        font-size: 16px;
+        text-decoration: none;
+        font-family: 'poppinsbold';
+        padding: 5px 0px;
+        margin: 5px 0px;
+        border-bottom: 2px solid #a3a3a3;
+    }
+  }
+/**header**/
+.header{
+    background: url(../assets/images/slide-1.jpg) no-repeat -60px 0px / cover;
+    height: 720px;
+   &__customnavbar{
+    background: none;
+    border: none;
+    margin: 20px 0px 10px 0px;
+    padding: 10px 0px;
+    border-radius: 0px;
+    border-top: 1px solid #4282b4;
+    border-bottom:1px solid #4282b4 ;
+    .navbar-nav{
+        margin: 0px 21%;
+        .active>a{
+            background: none;
+        }
+        li a{
+            color: $primarycolor;
+            font-family: 'poppinsbold';
+            margin: 0px 5px;
+            font-size: 16px;
+        }
+        li a:hover,.active{
+            color: #efe64c;
+        }      
+    }
+   }
+    &__divers{
+        margin: 30px 0px;
+        &__info{
+            color: #fff;
+            font-size: 16px;
+            display: inline;
+        }
+        &__image{
+            padding: 0px 35%;
+        }
+        &__image__secondary{
+            padding: 10px 20px;
+        }
+    }
+}
+/**bannersection**/
+.bannersection{
+    padding: 40px 0px;
+    &__heading{
+        color: $primarycolor;
+        font-size: 65px;
+        text-transform: capitalize;
+        line-height: 85px;
+        font-weight: 600;
+        font-family: Comfortaa;
+    }
+    &__description{
+        color:#7ea2be;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 0px;
+    }
+}
+/**destinationsection**/
+.destinationsection{
+    padding: 40px 0px 80px 0px;
+    &__image{
+        border: 1px solid #e1e1e1;
+        padding: 13px;
+        margin: 10px 0px;
+    }
+}
+/**aboutussection**/
+.aboutussection{
+    background:url(../assets/images/bg-index-1.jpg) no-repeat -170px 0px / cover; 
+    height: 550px;
+    padding: 80px 0px;
+    &__teaser{
+        padding: 30px 0px;
+        &--line{
+            border-bottom: 1px solid #e1e1e1;
+        }
+        img{
+            padding-top: 30px;
+        }
+    }
+}
+/**aboutcompanysection**/
+.aboutcompanysection{
+    background:url(../assets/images/parallax-1.jpg) no-repeat 0px 0px / cover; 
+    height: 380px;
+    text-align: center;
+    &__detail{
+        padding: 80px 0px;
+    }
+    &__heading{
+        color: $primarycolor;
+        font-size: 55px;
+        font-weight:600;
+        font-family: Comfortaa;
+    }
+    &__heading:hover{
+        transform: scale(1.5);
+    }
+    &__line{
+        border-bottom: 1px solid $primarycolor;
+        padding: 0px 20px;
+    }
+    &__description{
+        color: $primarycolor;
+        padding: 10px 0px;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight:600;
+    }
+}
+/**diverssection**/
+.diverssection{
+    padding: 80px 0px;
+    &__card{
+        padding: 120px 0px 20px 0px;
+        &__content{
+            border: 1px solid #e1e1e1;
+            padding: 30px 20px;
+            img{
+                margin-top: 20px;
+            }
+            &--title{
+                font-size: 23px;
+                padding-left: 10px;
+            }
+            &--para{
+                padding-left: 10px;
+            }
+        }
+    }
+    &__title{
+        border-bottom: 1px solid #e1e1e1;
+        background: url(../assets/images/Capture1.JPG) no-repeat 0px 10px / 10%;
+        color: #15152b;
+        font-size: 20px;
+        padding: 30px 80px;
+        cursor: pointer;
+    }
+    &__title.active{
+        background: url(../assets/images/Capture2.JPG) no-repeat 0px 10px / 10%;
+    }
+    &__brief{
+        color: #8d778d;
+        padding: 10px 0px;
+        font-size: 14px;
+        display: none;
+    }
+    &__indicators{
+        bottom: -60px;
+        li{
+            background: #d7d7d7;
+            width: 20px;
+            height: 20px;
+        }
+        .active{
+            background: #0473db;
+            width: 20px;
+            height: 20px;
+        }
+    }
+    &__aboutdivers{
+        padding: 40px 0px;
+        &__heading{
+            color: $secondarycolor;
+            font-family: Comfortaa;
+            font-size: 45px;
+            font-weight: 700;
+        }
+    }
+    &__companyinfo{
+        padding: 80px 0px 60px 0px;
+        &__teaserlist{
+            text-align: left;
+            &__teaser{
+                img{
+                    padding-top: 30px;
+                }
+            }
+        }  
+    }
+}
+/**testinomialsection**/
+.testinomialsection{
+    background-color:$bgcolor;
+    padding: 60px 0px;
+    position: relative;
+    &__customers{
+        padding: 30px 100px;
+        text-align: center;
+        &__review{
+            &__username{
+                font-size: 16px;
+                padding-top: 20px;
+                color: #2a2b2b;
+                font-weight: 600;
+            }
+            &__client{
+                font-size: 14px;
+                color: #0473db;
+            }
+            &__image{
+                border-radius: 100%;
+            }
+        }
+    }
+    &__customerone{
+        background-color: #eff3f8a6;
+        position: absolute;
+        height: 20%;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    &__customertwo{
+        background-color: #eff3f8a6;
+        position: absolute;
+        height: 100%;
+        top: 16%;
+        left: 0px;
+        width: 100%;
+    }
+    &__customerthree{
+        background-color: #eff3f8a6;
+        position: absolute;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+}
+/**gallerysection**/
+.gallerysection{
+    padding: 40px 0px 60px 0px;
+    &__imagelist{
+        margin: 20px 0;
+        img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}
+/**subscribesection**/
+.subscribesection{
+    background:url(../assets/images/parallax-4.jpg) no-repeat 0px 0px / cover; 
+    height: 350px;
+    padding: 100px 0px;
+    text-align: center;
+    &__heading{
+        color: $primarycolor;
+        font-size: 45px;
+        font-family: Comfortaa;
+        font-weight: 600;
+    }
+    &__content{
+        color: #b3c7d7;
+        font-size: 14px;
+    }
+    &__control{
+        border: none;
+        margin: 30px 0px;
+        padding: 30px;
+        background: none;
+        text-align: center;
+        font-size: 18px;
+        box-shadow: none;
+        border-radius:0;
+        border-bottom: 1px solid #fff;
+    }
+    ::placeholder{
+        color: #fff;
+    }
+    &__button{
+        margin: 20px 0px;
+        padding: 25px 55px;
+        border-radius: 5px;
+    }
+}
+/**instructorsection**/
+.instructorsection{
+    padding: 40px 0px 60px 0px;
+    &__detail{
+        margin: 20px 0px;
+        &__brief{
+            i{
+                font-size: 23px;
+                padding-right: 10px;
+                color: $secondarycolor;
+                margin: 10px 0px;
+            }
+            &__title{
+                padding-top:20px ;
+                font-size: 22px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+/**blogsection**/
+.blogsection{
+    background: $bgcolor;
+    padding: 60px 0px;
+    &__detail{
+        margin: 20px 0px;
+        &__brief{
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+            &__content{
+                padding: 40px 20px 30px 20px;
+                background: #fff;
+                .date{
+                    color: #878787;
+                    font-size: 16px;
+                }
+                .title{
+                    font-size: 22px;
+                    line-height: 35px;
+                    font-family: Comfortaa;
+                    font-weight: 600;
+                }
+                .para{
+                    line-height: 25px;
+                    color: #797979;
+                }
+            }
+        }
+    }
+}
+/**footersection**/
+.footersection{
+    background: #2a333f;
+    color: $primarycolor;
+    padding: 60px 0px;
+    &__pretitle{
+        font-size: 22px;
+        font-family: Comfortaa;
+        padding: 10px 0px 20px 0px;
+    }
+    &__imagelist{
+        margin-top: 10px;
+        img{
+            margin-bottom: 10px;
+        }
+    }
+    &__links{
+        padding: 0px;
+        list-style-type: none;
+    }
+    &__line{
+        border: 1px solid #555c65;
+        display: inline-block;
+        width:13%;
+        margin: 3px 0;       
+    }
+    &__text{
+        padding: 0 10px;
+        display: inline-block;
+        line-height: 30px;
+    }
+    &__tile{
+        padding: 0px;
+    }
+    &__list{
+        display: inline;
+    }
+    &__image{
+        width: 24%;
+        margin: 5px 4px;
+    }
+    .contactdetails{
+        margin-top: 10px;
+    }
+    .contactinfo{
+        margin-top: 10px;
+        a{
+            font-size: 16px;
+            margin-bottom: 15px;
+            padding: 0px 13px;
+        }
+        i{
+            font-size: 20px;
+            color: $btncolor;
+            padding-left: 10px;
+        }
+    }
+    .icons{
+        margin-top: 20px;
+        i{
+            font-size: 20px;
+            padding: 12px 13px;
+            color: #95999f;
+            border-radius: 100%;
+            border: 1px solid #95999f;
+         }
+         a{
+            display: inline;
+            padding: 2px;
+         }
+         .ficon{
+            padding: 12px 16px;
+         }
+    }
+    a{
+        color: #fff;
+        font-size: 14px;
+        display: inline-block;
+    }  
+}
+.longline{
+    background: #2a333f;
+    border-top: 1px solid #4f565f;
+    color: #757777;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0px;
+    i{
+        padding: 5px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 765px)
+{
+    .header{
+        &__divers{
+            margin: 10px 0px;
+        }
+        &__divers__image{
+            padding: 10px 0px 5px 0px;
+            display: inline-block;
+        }
+        &__divers__info{
+            display: none;
+        }
+    }
+   .header{
+    &__image__secondary{
+        float: none!important;
+        padding: 20px 0px 0px 0px;
+        display: none;
+    }
+    &__menubar{
+        text-align: left;
+    }
+    &__customnavbar{
+        .navbar-nav{
+            margin: 0px;
+        }
+        .nav>li>a{
+            padding: 10px 0px;
+            margin: 0px;
+        }
+        .navbar-toggle{
+            margin-top: -70px;
+            border: none;
+        }
+    }
+   }
+    .header,.aboutussection,.aboutcompanysection,.subscribesection{
+        height: auto;
+    }
+    .destinationsection__image{
+        width: 100%;
+    }
+    .bannersection{
+        &__heading{
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+    .bannersection{
+        &__description{
+            font-size: 18px;
+        }
+    }
+    .btn-primary{
+        border-color: none;
+    }
+    .diverssection__aboutdivers{
+        &__heading{
+            font-size: 25px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+    .instructorsection__detail{
+        &__brief{
+            margin-bottom: 30px;
+        }
+    }
+    .blogsection__detail{
+        &__brief{
+            margin-bottom: 30px;
+        }
+    }
+    .footersection{
+        &__pretitle{
+            margin-top: 40px;
+        }
+    }
+    .diverssection{
+        &__title{
+            background-position: 0px 0px;
+            padding: 3px 37px;
+            line-height: 30px;
+        }
+        &__title.active{
+            background: url(../assets/images/Capture2.JPG) no-repeat 0px 3px / 10%;
+        }
+        &__title{
+            background: url(../assets/images/Capture1.JPG) no-repeat 0px 3px / 10%;
+        }
+        &__card__content{
+            text-align: center;
+        }
+    }
+    .bannersection{
+        padding: 20px 0px 30px 0px;
+        &__description{
+            font-size: 16px;
+            padding: 10px 0;
+        }
+    }
+    .titlesection{
+        &__heading{
+            font-size: 30px;
+            padding: 10px 0;
+        }
+        &__description {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+    .teaserlist{
+        &__pretitle{
+            font-size: 20px;
+            padding: 10px 0;
+        }
+    }
+    .destinationsection__content,.aboutcompanysection__description,.testinomialsection__customers__review{
+        margin-bottom: 30px ;
+    }
+    .aboutussection,.aboutcompanysection__detail,.diverssection__card,.diverssection,.testinomialsection,.destinationsection,.gallerysection,.instructorsection,.blogsection,.footersection{
+        padding: 20px 0px;
+    }
+    .diverssection__card{
+        &__content{
+            margin-bottom: 20px;
+        }
+    }
+    .diverssection__card{
+        &__content--para{
+            padding-left: 0px;
+        }
+    }
+    .subscribesection{
+        padding: 40px 0px;
+        &__heading{
+            font-size: 30px;
+        }
+    }
+    .subscribesection{
+        &__control{
+            font-size: 14px;
+        } 
+    }
+    .footersection {
+        img{
+            border: dashed;
+        }
+    }
+    .footersection {
+        .contactinfo a{
+            margin-left: 0px;
+        }
+    }
+    .custombutton{
+        padding: 9px 20px 8px 20px;
+        font-size: 13px
+    }
+
+
+}

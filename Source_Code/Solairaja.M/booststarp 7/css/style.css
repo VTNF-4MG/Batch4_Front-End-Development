@@ -1,0 +1,888 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppinsregular";
+}
+
+@font-face {
+  font-family: "poppinsregular";
+  src: url("../acctes/fonts/poppins-regular-webfont.eot");
+  src: url("../acctes/fonts/poppins-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../acctes/fonts/poppins-regular-webfont.woff2") format("woff2"), url("../acctes/fonts/poppins-regular-webfont.woff") format("woff"), url("../acctes/fonts/poppins-regular-webfont.ttf") format("truetype"), url("../acctes/fonts/poppins-regular-webfont.svg#poppinsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.custom-navbar {
+  background: #03218f !important;
+  margin-bottom: 0px !important;
+  border: none !important;
+  padding: 20px 0px !important;
+  border-radius: 0px !important;
+}
+.custom-navbar .custom-header a img {
+  width: 33%;
+}
+.custom-navbar .navbar-nav button {
+  margin-top: 9px;
+}
+.custom-navbar .navbar-header a {
+  color: #ffffff !important;
+  font-size: 35px;
+}
+.custom-navbar .navbar-main .navbar-right li {
+  font-size: 15px;
+  font-weight: bold;
+}
+.custom-navbar .navbar-main .navbar-right li a {
+  color: #ffffff;
+}
+.custom-navbar .navbar-main .navbar-right li a:hover {
+  color: #496dff;
+}
+.custom-navbar .navbar-main .navbar-right li a:hover .active:hover {
+  color: #496dff;
+}
+.custom-navbar .navbar-main .navbar-right li i {
+  color: #9a9a9a;
+}
+
+.btn {
+  padding: 15px 45px !important;
+  border-radius: 30px !important;
+  font-weight: bold !important;
+  font-size: 15px !important;
+  background: #de4f23 !important;
+  border: none !important;
+}
+
+.banner {
+  background: #03218f !important;
+}
+
+.teaserlist .teaser {
+  padding: 8% 0px;
+}
+.teaserlist .teaser h2 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  padding: 10px 0px;
+}
+.teaserlist .teaser p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 35px;
+  padding: 30px 0px;
+}
+.teaserlist .teaser img {
+  width: 100%;
+  padding: 10% 0% 10% 10%;
+}
+
+.tittlesection h2 {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.tittlesection span {
+  color: #7b82ac;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+.prand-logo {
+  margin: 2% 0px;
+}
+.prand-logo .teaserlist ul li {
+  display: inline-block;
+  list-style: none;
+  width: 18%;
+  margin: 20px 10px 20px 0px;
+}
+.prand-logo .teaserlist ul li img {
+  width: 100%;
+}
+
+.background-line {
+  background-color: #f9f9f9;
+  padding: 10px 0px;
+}
+
+.aboutus {
+  margin: 4% 0px;
+}
+.aboutus .teaserlist .mind {
+  border: 0px solid red;
+  padding: 10px 10px;
+}
+.aboutus .teaserlist .mind .number {
+  padding: 10px 20px;
+}
+.aboutus .teaserlist .mind .number p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.aboutus .teaserlist .mind .number .client h1 {
+  color: #db5935;
+  font-weight: bold;
+  font-size: 50px;
+}
+.aboutus .teaserlist .mind .number .delivered h1 {
+  color: #1624ab;
+  font-weight: bold;
+  font-size: 50px;
+}
+.aboutus .teaserlist .teaser {
+  border: 0px solid red;
+  padding: 33px 15px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 25px #f8f9fe;
+}
+.aboutus .teaserlist .teaser img {
+  width: 30%;
+  padding: 0%;
+}
+.aboutus .teaserlist .teaser h5 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.aboutus .teaserlist .teaser p {
+  color: #484848;
+  line-height: 25px;
+  padding: 10px 0px;
+  font-size: 13px;
+}
+
+.success-of-technolgy {
+  margin: 4% 0px;
+}
+.success-of-technolgy .teaserlist .teaser {
+  box-shadow: 0px 0px 0px #f8f9fe;
+  border: 0px solid red;
+  padding: 10px 10px;
+}
+.success-of-technolgy .teaserlist .teaser img {
+  width: 100%;
+  padding: 0px;
+}
+.success-of-technolgy .teaserlist .teaser .mind h3 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.success-of-technolgy .teaserlist .teaser .mind p {
+  color: #484848;
+  line-height: 25px;
+  padding: 10px 0px;
+  margin: 0px;
+  font-size: 18px;
+}
+.success-of-technolgy .teaserlist .teaser .mind .right .pull-right {
+  font-weight: bold;
+}
+.success-of-technolgy .teaserlist .teaser .mind .coustom-bar {
+  height: 8px;
+  margin-bottom: 7px;
+  border-radius: none;
+  margin: 15px 0px;
+}
+.success-of-technolgy .teaserlist .teaser .mind .coustom-bar .linebar {
+  background: #50341d;
+}
+.success-of-technolgy .teaserlist .teaser .mind .coustom-bar .lineblue {
+  background: #091e9a;
+}
+.success-of-technolgy .teaserlist .teaser .mind .coustom-bar .linepink {
+  background: #ea3187;
+}
+.success-of-technolgy .teaserlist .teaser .btn {
+  margin-top: 10px;
+}
+
+.services-section {
+  padding: 4% 0px;
+  background: #f6f7f9;
+}
+.services-section .teaserlist {
+  padding: 2% 0%;
+}
+.services-section .teaserlist .teaser {
+  border-radius: 10px;
+  padding: 2% 2%;
+  background: #ffffff;
+  margin-bottom: 25px;
+}
+.services-section .teaserlist .teaser img {
+  width: 28%;
+  padding: 10px 0px;
+  margin: 10px;
+}
+.services-section .teaserlist .teaser h2 {
+  font-size: 74px;
+  margin: 10px;
+  color: #f6f6f6;
+}
+.services-section .teaserlist .teaser h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+.services-section .teaserlist .teaser p {
+  color: #484848;
+  line-height: 25px;
+  margin: 10px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.teaserlist .mind {
+  border: 0px solid red;
+  padding: 10px 10px;
+}
+.teaserlist .mind .line {
+  display: flex;
+}
+.teaserlist .mind .line span {
+  color: #647088;
+  margin: 0px 3px;
+  font-size: 15px;
+}
+.teaserlist .mind .line span .fistline {
+  background: #e86d20;
+  width: 20px;
+  margin: 10px 3px;
+  padding: 2px 0px;
+}
+.teaserlist .mind .line span .secondline {
+  width: 40px;
+  margin: 10px 3px;
+  padding: 2px 0px;
+  background: #e86d20;
+}
+.teaserlist .mind h3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  padding: 10px 0px;
+}
+.teaserlist .mind p {
+  color: #484848;
+  line-height: 25px;
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+.dynamic-application {
+  padding: 5% 0%;
+}
+.dynamic-application .teaserlist .teaser {
+  position: relative;
+  border: 0px solid red;
+  padding: 0px 0px;
+}
+.dynamic-application .teaserlist .teaser .mind {
+  border: 0px solid red;
+}
+.dynamic-application .teaserlist .teaser .mind h3 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.dynamic-application .teaserlist .teaser .mind p {
+  color: #484848;
+  line-height: 25px;
+  padding: 10px 0px;
+  margin: 0px;
+  font-size: 18px;
+}
+.dynamic-application .teaserlist .teaser img {
+  padding: 0px !important;
+}
+.dynamic-application .teaserlist .teaser h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.dynamic-application .teaserlist .teaser h4 {
+  font-size: 15px;
+  line-height: 35px;
+}
+.dynamic-application .teaserlist .teaser .image1 img {
+  width: 30%;
+  position: absolute;
+  left: 18px;
+  transform: rotate(-6deg);
+  border: 0px solid red;
+}
+.dynamic-application .teaserlist .teaser .image2 img {
+  width: 90%;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+}
+.dynamic-application .teaserlist .teaser .image3 img {
+  width: 21%;
+  position: absolute;
+  right: 42px;
+  top: 396px;
+}
+
+.team {
+  padding: 10% 0%;
+  background: #f6f6f6;
+}
+.team .tittlesection {
+  text-align: center;
+}
+.team .teaserlist .patteners {
+  border: 0px solid red;
+  background: url("../acctes/images/ngbng.png") no-repeat 0px 0px/cover;
+  width: 100%;
+  height: 351px;
+  position: relative;
+}
+.team .teaserlist .patteners img {
+  width: 82%;
+  border-radius: 50%;
+  position: absolute;
+  left: 26px;
+  top: 31px;
+}
+.team .teaserlist .teaser {
+  text-align: center;
+  padding: 5px 0px;
+}
+.team .teaserlist .teaser h3 {
+  color: none;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  margin: 3px 0px;
+}
+.team .teaserlist .teaser P {
+  color: black;
+  padding: 3px 0px;
+  font-size: 15px;
+  margin: 0px 0px;
+}
+.team .teaserlist .teaser ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 2px;
+}
+
+.projects {
+  padding: 10% 0%;
+}
+.projects .tittlesection {
+  text-align: center;
+}
+.projects .teaserlist .tail {
+  margin-bottom: 25px;
+}
+.projects .teaserlist .tail img {
+  border-radius: 10px;
+}
+
+.expert-engineers {
+  padding: 10% 0%;
+  background: #f6f6f6;
+}
+.expert-engineers .teaserlist .teaser {
+  padding: 0px;
+}
+.expert-engineers .teaserlist .teaser .mailbox {
+  display: flex;
+  margin: 10px 0px;
+}
+.expert-engineers .teaserlist .teaser .mailbox img {
+  width: 10%;
+  padding: 0px !important;
+  margin: 5px;
+}
+.expert-engineers .teaserlist .teaser .mailbox .mailcontant {
+  margin: 0px 10px;
+}
+.expert-engineers .teaserlist .teaser .mailbox .mailcontant h5 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+.expert-engineers .teaserlist .teaser .mailbox .mailcontant h6 {
+  font-size: 15px;
+  line-height: 35px;
+  margin: 10px;
+}
+.expert-engineers .teaserlist .addres {
+  padding: 10%;
+  background: #ffffff;
+  text-align: center;
+}
+.expert-engineers .teaserlist .addres h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.expert-engineers .teaserlist .addres p {
+  font-size: 13px;
+  padding: 10px 0px;
+}
+.expert-engineers .teaserlist .addres .formgroup .form-control {
+  margin: 20px 0px;
+  padding: 20px 10px;
+  background-color: #f6f6f6;
+}
+.expert-engineers .teaserlist .addres .btn {
+  border-radius: 0px !important;
+  padding: 15px 35% !important;
+  margin: 10px 0px;
+}
+
+.blogs {
+  padding: 10% 0%;
+}
+.blogs .tittlesection {
+  text-align: center;
+  margin: 2% 0px;
+}
+.blogs .tittlesection p {
+  font-size: 17px;
+  margin: 15px 0px;
+}
+.blogs .teaserlist .teaser {
+  border: 0px solid red;
+  padding: 10px;
+  margin: 2% 0px;
+  box-shadow: 0px 0px 50px #f9f9ff;
+}
+.blogs .teaserlist .teaser img {
+  position: relative;
+  padding: 10px;
+}
+.blogs .teaserlist .teaser .webcontant {
+  position: absolute;
+  border-radius: 30px;
+  background-color: #1624ab;
+  color: #ffffff;
+  padding: 10px 20px;
+  right: 44px;
+  top: 288px;
+}
+.blogs .teaserlist .teaser .tech {
+  padding: 5px 5px;
+  border: 0px solid red;
+  margin: 0px 10px;
+}
+.blogs .teaserlist .teaser .tech .admin {
+  display: flex;
+}
+.blogs .teaserlist .teaser .tech .admin .calender {
+  margin: 0px 10px;
+}
+.blogs .teaserlist .teaser .tech .admin i {
+  color: blue;
+  margin-right: 5px;
+}
+.blogs .teaserlist .teaser .tech .admin span {
+  color: gray;
+  margin: 0px 7px;
+}
+.blogs .teaserlist .teaser .tech h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 10px;
+  line-height: 30px;
+}
+.blogs .teaserlist .teaser .tech p {
+  color: gray;
+  line-height: 0px;
+  font-size: 13px;
+  padding: 10px 10px;
+}
+
+.footer {
+  background: url("../acctes/images/footer-bg.png") no-repeat 0px 0px/cover;
+  width: 100%;
+  height: 400px;
+  padding: 5% 0px;
+}
+.footer .teaserlist .teaser {
+  padding: 10px 10px;
+  border: 0px solid red;
+}
+.footer .teaserlist .teaser img {
+  padding: 10px 0px;
+  width: 75%;
+}
+.footer .teaserlist .teaser p {
+  color: gray;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+.footer .teaserlist .teaser ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin-right: 5px;
+  background: #ffffff;
+}
+.footer .teaserlist .teaser h3 {
+  font-weight: bold;
+  padding: 10px 0px;
+  margin: 0px 0px;
+}
+.footer .teaserlist .teaser h6 {
+  color: gray;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+.footer .teaserlist .teaser .contact-info span {
+  display: block;
+  color: gray;
+  font-size: 15px;
+  margin: 15px 0px;
+}
+.footer .teaserlist .teaser .contact-info i {
+  display: inline-block;
+  color: blue;
+  font-size: 20PX;
+  margin: 15px 0px;
+}
+.footer .teaserlist .teaser .formgroup i {
+  background: #03218f !important;
+  position: absolute;
+  right: 27px;
+  padding: 17px 17px;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 50%;
+  top: 194px;
+}
+.footer .teaserlist .teaser .formgroup .mailbox {
+  padding: 25px 15px !important;
+  border-radius: 30px;
+  position: relative;
+  margin: 10px 0px;
+  font-size: 13px;
+}
+
+.footerdown {
+  background: #ffffff;
+  padding: 10px 0px;
+  position: relative;
+}
+.footerdown .teaserlist .teaser {
+  border: 0px solid red;
+  padding: 0px;
+}
+.footerdown .teaserlist .teaser h5 {
+  padding: 10px 0px;
+  line-height: 25px;
+}
+.footerdown .teaserlist .teaser ul {
+  margin-bottom: 0px;
+}
+.footerdown .teaserlist .teaser ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 0px;
+}
+.footerdown .teaserlist .teaser ul li i {
+  color: #496dff;
+  font-size: 8px;
+}
+.footerdown .teaserlist .teaser ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  display: inline-block;
+}
+.footerdown .teaserlist .teaser ul li a:hover {
+  color: #ffffff;
+  background: yellowgreen;
+}
+.footerdown .footer-drop {
+  position: relative;
+}
+.footerdown .footer-drop a {
+  position: absolute;
+  right: 54px;
+  background: #496dff;
+  color: #ffffff;
+  font-size: 29px;
+  padding: 6px 17px;
+  border-radius: 50%;
+  top: -94px;
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  .custom-navbar .custom-header a img {
+    width: 43%;
+    margin-top: -44px;
+  }
+  .teaserlist .teaser {
+    padding: 4% 0px;
+  }
+  .teaserlist .teaser h2 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 5px 0px;
+  }
+  .teaserlist .teaser p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px 0px;
+  }
+  .teaserlist .teaser img {
+    padding: 5% 0% 5% 5%;
+  }
+  .tittlesection {
+    text-align: center;
+  }
+  .tittlesection h2 {
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  .tittlesection span {
+    font-size: 10px;
+    margin: 10px 0px;
+  }
+  .prand-logo {
+    margin: 2% 0px;
+    text-align: center;
+  }
+  .prand-logo .teaserlist ul li {
+    display: block;
+    width: 100%;
+  }
+  .prand-logo .teaserlist ul li img {
+    width: 65%;
+  }
+  .aboutus {
+    margin: 4% 0px;
+    text-align: center;
+  }
+  .aboutus .teaserlist .mind {
+    border: 0px solid red;
+    padding: 5px 10px;
+  }
+  .aboutus .teaserlist .mind .number {
+    padding: 5px 20px;
+  }
+  .aboutus .teaserlist .mind .number p {
+    font-size: 15px;
+  }
+  .aboutus .teaserlist .mind .number .client h1 {
+    font-size: 5px;
+    font-size: 30px;
+  }
+  .aboutus .teaserlist .mind .number .delivered h1 {
+    font-size: 30px;
+  }
+  .aboutus .teaserlist .teaser {
+    padding: 25px 10px;
+    margin-bottom: 15px;
+  }
+  .aboutus .teaserlist .teaser img {
+    width: 30%;
+    padding: 0%;
+  }
+  .aboutus .teaserlist .teaser h5 {
+    font-size: 15px;
+    padding: 5px 0px;
+  }
+  .aboutus .teaserlist .teaser p {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 5px 0px;
+  }
+  .success-of-technolgy {
+    text-align: center;
+  }
+  .success-of-technolgy .teaserlist .teaser img {
+    width: 100%;
+  }
+  .success-of-technolgy .teaserlist .teaser .mind h3 {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 5px 0px;
+  }
+  .success-of-technolgy .teaserlist .teaser .mind p {
+    line-height: 25px;
+    padding: 5px 0px;
+    font-size: 15px;
+  }
+  .success-of-technolgy .teaserlist .teaser .mind .coustom-bar {
+    margin-bottom: 8px;
+    border-radius: none;
+    margin: 20px 0px;
+  }
+  .success-of-technolgy .teaserlist .teaser .btn {
+    margin-top: 10px;
+  }
+  .dynamic-application {
+    text-align: center;
+  }
+  .dynamic-application .teaserlist .teaser {
+    position: relative;
+  }
+  .dynamic-application .teaserlist .teaser .mind {
+    border: 0px solid red;
+    margin: 60% 0px;
+  }
+  .dynamic-application .teaserlist .teaser .mind h3 {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px 0px;
+    margin: 0px;
+  }
+  .dynamic-application .teaserlist .teaser .mind p {
+    margin: 0px;
+    font-size: 15px;
+  }
+  .dynamic-application .teaserlist .teaser img {
+    padding: 0px !important;
+    width: 50px;
+    margin: 10px 0px;
+  }
+  .dynamic-application .teaserlist .teaser h5 {
+    font-size: 15px;
+    margin: 5px 0px;
+  }
+  .dynamic-application .teaserlist .teaser h4 {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .dynamic-application .teaserlist .teaser .image1 img {
+    width: 30%;
+    position: absolute;
+    left: 49px;
+    transform: rotate(-16deg);
+    border: 0px solid red;
+  }
+  .dynamic-application .teaserlist .teaser .image2 img {
+    width: 50%;
+    position: absolute;
+    top: 19px;
+    z-index: 1;
+    right: 84px;
+  }
+  .dynamic-application .teaserlist .teaser .image3 img {
+    width: 16%;
+    position: absolute;
+    right: 75px;
+    top: 121px;
+  }
+  .team .tittlesection {
+    margin: 10px 0px;
+  }
+  .team .teaserlist .patteners {
+    height: 295px;
+  }
+  .projects .tittlesection {
+    text-align: center;
+    margin: 10px;
+  }
+  .expert-engineers .teaserlist .teaser .mailbox {
+    display: black;
+    margin: 10px 0px;
+  }
+  .expert-engineers .teaserlist .teaser .mailbox img {
+    width: 15%;
+    padding: 0px !important;
+    margin: 5px;
+  }
+  .expert-engineers .teaserlist .teaser .mailbox .mailcontant {
+    margin: 0px 10px;
+  }
+  .expert-engineers .teaserlist .teaser .mailbox .mailcontant h5 {
+    font-size: 13px;
+  }
+  .expert-engineers .teaserlist .teaser .mailbox .mailcontant h6 {
+    font-size: 13px;
+  }
+  .expert-engineers .teaserlist .addres h3 {
+    font-size: 15px;
+  }
+  .expert-engineers .teaserlist .addres p {
+    font-size: 12px;
+  }
+  .expert-engineers .teaserlist .addres .btn {
+    padding: 15px 30% !important;
+  }
+  .teaserlist .mind h3 {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .teaserlist .mind p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .blogs {
+    padding: 10% 0%;
+  }
+  .blogs .tittlesection {
+    text-align: center;
+    margin: 2% 0px;
+  }
+  .blogs .tittlesection p {
+    font-size: 17px;
+    margin: 15px 0px;
+  }
+  .blogs .teaserlist .teaser .webcontant {
+    top: 222px;
+  }
+  .blogs .teaserlist .teaser .tech h3 {
+    font-size: 15px;
+    margin: 10px 10px;
+    line-height: 30px;
+  }
+  .blogs .teaserlist .teaser .tech p {
+    font-size: 10px;
+  }
+  .footer {
+    height: 1219px;
+  }
+  .footer .teaserlist .teaser {
+    text-align: center;
+  }
+  .footer .teaserlist .teaser .contact-info span {
+    margin: 10px 0px;
+  }
+  .footer .teaserlist .teaser .contact-info i {
+    margin: 8px 0px;
+  }
+  .footer .teaserlist .teaser .formgroup i {
+    right: 26px;
+    top: 147px;
+  }
+  .footerdown {
+    position: relative;
+  }
+  .footerdown .teaserlist .teaser ul {
+    margin-bottom: 0px;
+  }
+  .footerdown .teaserlist .teaser ul li {
+    display: block;
+  }
+  .footerdown .footer-drop {
+    position: relative;
+  }
+  .footerdown .footer-drop a {
+    position: absolute;
+    right: 14px;
+    top: -67px;
+  }
+}
+.services-section .tittlesection .btn {
+  padding: 10px 15px !important;
+  margin: 20px 80px !important;
+}/*# sourceMappingURL=style.css.map */
