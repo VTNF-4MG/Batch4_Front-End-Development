@@ -1,0 +1,37 @@
+* {
+  width: auto;
+  margin: auto;
+}
+
+body {
+  margin: 0px auto;
+  font-size: 16px;
+}
+
+table, th, td {
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 16px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  color: red;
+}
+
+button {
+  background-color: blue;
+  color: aliceblue;
+  padding: 15px 35px;
+  margin-left: 27%;
+}
+
+.name {
+  color: blue;
+}
+
+.Total {
+  color: rgba(212, 0, 255, 0.856);
+}/*# sourceMappingURL=style.css.map */
