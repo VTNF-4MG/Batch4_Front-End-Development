@@ -1,0 +1,757 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../asset/fonts/fontawesome-webfont.eot");
+  src: url("../asset/fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/roboto-regular-webfont.woff2") format("woff2"), url("../asset/fonts/roboto-regular-webfont.woff") format("woff"), url("../asset/fonts/roboto-regular-webfont.ttf") format("truetype"), url("../asset/fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'robotoregular';
+}
+
+/*global*/
+.titlesection {
+  text-align: center;
+}
+
+.titlesection h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.titlesection span {
+  display: inline-block;
+  width: 50px;
+  background: #4fbb6f;
+  padding: 1.5px;
+  margin: 15px 0px 20px 0px;
+}
+
+.titlesection p {
+  font-size: 16px;
+}
+
+.teaser {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.teaser span {
+  display: inline-block;
+  width: 50px;
+  background: #4fbb6f;
+  padding: 1.5px;
+  margin: 15px 0px 20px 0px;
+}
+
+.teaser h3 {
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4fbb6f;
+}
+
+.teaser p {
+  font-size: 19px;
+}
+
+.btn-default {
+  background: #4fbb6f;
+  border: none;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Header */
+.header {
+  background: #4fbb6f;
+  margin: 0 -15px;
+}
+
+.header .custom-navbar {
+  border-radius: 0;
+  background: none;
+  border: none;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+.header .custom-navbar .navbar-brand {
+  padding: 5px 15px;
+}
+
+.header .custom-navbar .navbar-right li a {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.header .custom-navbar .navbar-right li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.header .custom-navbar .navbar-right li i {
+  font-size: 20px;
+}
+
+/* banner */
+.bannercomponent {
+  margin: 0px -15px;
+  background: #f7f7f7;
+}
+
+.bannercomponent .custom-carousel img {
+  height: 100%;
+  width: 100%;
+}
+
+.bannercomponent .custom-carousel .carousel-caption {
+  z-index: 11;
+  width: 444px;
+  text-align: left;
+  left: 0%;
+  top: 0%;
+}
+
+.bannercomponent .custom-carousel h3 {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.bannercomponent .custom-carousel p {
+  font-weight: normal;
+  font-size: 20px;
+  font-style: italic;
+  color: #777777;
+  margin-top: 20px;
+}
+
+.bannercomponent .custom-carousel .btn-default {
+  margin-top: 20px;
+}
+
+.bannercomponent .carousel-indicators {
+  bottom: 0;
+  left: 4%;
+}
+
+.bannercomponent .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 0 10px;
+  background: #c6c6c6;
+}
+
+.bannercomponent .carousel-indicators li.active {
+  background: #4fbb6f;
+}
+
+/* about us */
+.aboutuscomponent .about {
+  margin: 50px 0px;
+}
+
+.aboutuscomponent .titlesection {
+  text-align: left;
+  padding: 10px;
+}
+
+.aboutuscomponent .titlesection h2 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.aboutuscomponent .titlesection span {
+  margin: 20px 0 40px 0;
+}
+
+/* advetisement*/
+.advertisecomponent {
+  background: #f9f9f9;
+  margin: 0 -15px;
+  padding: 50px 0;
+}
+
+.advertisecomponent .teaser h3 {
+  color: #000000;
+}
+
+.advertisecomponent .teaser i {
+  font-size: 43px;
+  color: #4fbb6f;
+}
+
+.advertisecomponent .teaser span {
+  margin: 30px 0 10px 0;
+}
+
+/*service*/
+.servicecomponent {
+  background: #4fbb6f;
+  margin: 0 -15px;
+  padding: 40px 0;
+}
+
+.servicecomponent .titlesection {
+  color: #ffffff;
+}
+
+.servicecomponent .titlesection h2 {
+  margin: 20px 0;
+}
+
+.servicecomponent .titlesection p {
+  margin: 15px 0;
+}
+
+.triangle {
+  text-align: center;
+}
+
+.triangle span {
+  width: 30px;
+  height: 30px;
+  margin: -15px 0px 0px 20px;
+  background: #4fbb6f;
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.repaircomponent {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.repaircomponent .row {
+  position: relative;
+}
+
+.repaircomponent .row .leftindicater {
+  position: absolute;
+  top: 43%;
+  left: -5px;
+  padding: 12px 15px;
+  background: #4fbb6f;
+  border-radius: 100%;
+  z-index: 1;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.repaircomponent .row .leftindicater i {
+  font-size: 20px;
+}
+
+.repaircomponent .row .rightindicater {
+  position: absolute;
+  top: 43%;
+  right: -5px;
+  padding: 12px 15px;
+  background: #4fbb6f;
+  border-radius: 100%;
+  z-index: 1;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.repaircomponent .row .rightindicater i {
+  font-size: 20px;
+}
+
+.repaircomponent button {
+  margin: 40px 0;
+}
+
+.repaircomponent .teaser {
+  text-align: center;
+  border: 1px solid #ececec;
+  padding: 15px 0px;
+  height: 400px;
+}
+
+.repaircomponent .teaser span {
+  margin: 40px 0 10px 0;
+}
+
+.repaircomponent .teaser h3 {
+  font-size: 26px;
+  color: #4fbb6f;
+  margin: 10px 0;
+}
+
+/*our team*/
+.teamcomponent {
+  background: #f9f9f9;
+  padding: 40px 0;
+  margin: 0px -15px;
+}
+
+.teamcomponent .teaser p {
+  color: #b1b3b8;
+}
+
+.teamcomponent .teaser a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.teamcomponent .teaser .facebook i, .teamcomponent .teaser .twitter i, .teamcomponent .teaser .google i, .teamcomponent .teaser .linkedin i, .teamcomponent .teaser .instagram i {
+  font-size: 16px;
+  padding: 10px 13px;
+  background: #395b98;
+  border-radius: 100%;
+  color: #ffffff;
+}
+
+.teamcomponent .teaser .twitter i {
+  background: #2ca7e0;
+}
+
+.teamcomponent .teaser .google i {
+  background: #d95139;
+}
+
+.teamcomponent .teaser .linkedin i {
+  background: #107bc1;
+}
+
+.teamcomponent .teaser .instagram i {
+  background: #4879a1;
+}
+
+/*  manufacture */
+.manufacturecomponent {
+  background: url("../asset/images/parallax-1.jpg") repeat-y 0px 0px/100% 220px;
+  height: 450px;
+  margin: 0 -15px;
+}
+
+.manufacturecomponent .manufacture {
+  height: 450px;
+  background: #0000007a;
+}
+
+.manufacturecomponent .facturesection {
+  padding: 10% 0px;
+}
+
+.manufacturecomponent .titlesection h2 {
+  color: #ffffff;
+}
+
+.manufacturecomponent ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  -webkit-filter: opacity(0.5);
+          filter: opacity(0.5);
+}
+
+/* Pricing */
+.pricingcomponent {
+  padding: 30px 0;
+}
+
+.pricingcomponent .titlesection h2 {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 20px;
+}
+
+.pricingcomponent .pricelist {
+  text-align: center;
+  border: 1px solid #ededed;
+  -webkit-box-shadow: 1px 1px 3px #ccc;
+          box-shadow: 1px 1px 3px #ccc;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.pricingcomponent .pricelist .teaser, .pricingcomponent .pricelist .profesional {
+  background: #f9f9f9;
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+  padding: 12px 0;
+}
+
+.pricingcomponent .pricelist .teaser:hover, .pricingcomponent .pricelist .profesional:hover {
+  background: #4fbb6f;
+  color: #ffffff;
+}
+
+.pricingcomponent .pricelist .teaser h3:hover, .pricingcomponent .pricelist .profesional h3:hover {
+  background: #4fbb6f;
+  color: #ffffff;
+}
+
+.pricingcomponent .pricelist .teaser p, .pricingcomponent .pricelist .profesional p {
+  padding: 5px 0;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.pricingcomponent .pricelist .profesional {
+  background: #4fbb6f;
+}
+
+.pricingcomponent .pricelist .profesional h3 {
+  color: #ffffff;
+}
+
+.pricingcomponent .pricelist .profesional p {
+  color: #ffffff;
+}
+
+.pricingcomponent .pricelist ul {
+  margin: 0 15px;
+  padding: 0 0;
+}
+
+.pricingcomponent .pricelist ul li {
+  padding: 5px;
+  list-style: none;
+  border-bottom: 1px solid #ededed;
+  padding: 15px 15px;
+  margin: 0;
+  color: #999999;
+}
+
+.pricingcomponent .pricelist ul li:last-child {
+  border: none;
+}
+
+.pricingcomponent .pricelist button {
+  margin: 20px 0;
+}
+
+/* testimonialcomponent */
+.testimonialcomponent {
+  background: #f9f9f9;
+  padding: 50px 0;
+  margin: 0 -15px;
+}
+
+.testimonialcomponent .teaser {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.testimonialcomponent .teaser h3 {
+  font-size: 22px;
+  margin: 10px 0 5px 0;
+}
+
+.testimonialcomponent .teaser p {
+  font-size: 16px;
+  color: #b5b5b5;
+  border: none;
+  padding: 0px;
+}
+
+.testimonialcomponent .teaser img {
+  border-radius: 100%;
+}
+
+.testimonialcomponent p {
+  border-top: 1px solid #b5b5b5;
+  font-size: 16px;
+  font-style: italic;
+  color: #848485;
+  padding: 10px 0;
+}
+
+.testimonialcomponent .linetriangle {
+  width: 10px;
+  height: 10px;
+  margin: 0px 0px -10px 20px;
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-top: 1px solid #b5b5b5;
+  border-left: 1px solid #b5b5b5;
+}
+
+/* jointeamcomponent */
+.jointeamcomponent {
+  padding: 25px 0;
+}
+
+.jointeamcomponent .titlesection {
+  text-align: left;
+}
+
+.jointeamcomponent .titlesection p {
+  font-size: 15px;
+  margin: 25px 0;
+}
+
+.jointeamcomponent .titlesection button {
+  padding: 13px 50px;
+}
+
+/* map */
+.maplocation {
+  margin: 0 -15px;
+}
+
+/* footer */
+.footercomponent {
+  background: #313132;
+  margin: 0 -15px;
+  padding: 30px 0;
+  color: #777777;
+}
+
+.footercomponent .footsection {
+  margin: 30px 0;
+}
+
+.footercomponent .footsection .footlogo {
+  padding: 20px 0;
+}
+
+.footercomponent .footsection .footlogo a {
+  display: inline-block;
+}
+
+.footercomponent .footsection .footlogo ul {
+  margin: 30px 0;
+  padding: 70px 0 0 0;
+}
+
+.footercomponent .footsection .footlogo ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footercomponent .footsection .footlogo ul li a {
+  text-decoration: none;
+  color: #777777;
+  margin: 0 8px 0 0;
+}
+
+.footercomponent .footsection .footlogo ul li a i {
+  font-size: 20px;
+}
+
+.footercomponent .footsection .footlogo ul li a i:hover {
+  text-decoration: underline;
+  color: #4fbb6f;
+}
+
+.footercomponent .footsection .footnews .titlesection, .footercomponent .footsection .footcontact .titlesection {
+  text-align: left;
+  color: #ffffff;
+  padding: 0 15px;
+}
+
+.footercomponent .footsection .footnews .titlesection h2, .footercomponent .footsection .footcontact .titlesection h2 {
+  font-size: 25px;
+  padding-bottom: 10px;
+  margin: 5px 0;
+  border-bottom: 1px solid #777777;
+}
+
+.footercomponent .footsection .footnews .titlesection p, .footercomponent .footsection .footcontact .titlesection p {
+  color: #777777;
+  padding-top: 20px;
+}
+
+.footercomponent .footsection .footnews .titlesection .form-control, .footercomponent .footsection .footcontact .titlesection .form-control {
+  width: 90%;
+  height: 40px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.footercomponent .footsection .footnews .titlesection button, .footercomponent .footsection .footcontact .titlesection button {
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+  padding: 8.5px 20px;
+}
+
+.footercomponent .footsection .footcontact a {
+  text-decoration: none;
+  display: inline-block;
+  color: #777777;
+  font-size: 16px;
+}
+
+.footercomponent .footsection .footcontact a:hover {
+  color: #4fbb6f;
+}
+
+.footercomponent .footsection .footcontact i {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footercomponent .footsection .footcontact .footaddress {
+  padding: 25px 0;
+}
+
+.footercomponent .footsection .footcontact .footaddress .row {
+  margin: 0 30px;
+}
+
+.footercomponent .footsection .footcontact .footaddress .footwork {
+  margin: 0 0 20px 0;
+}
+
+.footercomponent .footsection .footcontact .footaddress .col-md-2 {
+  padding: 0;
+}
+
+.footercomponent .footsection .footcontact .footaddress .col-md-10 {
+  padding: 0;
+}
+
+.footercomponent .footsection .footcontact .footaddress .e-mail {
+  color: #4fbb6f;
+}
+
+.footercomponent .footsection .footcontact .footaddress p {
+  font-size: 16px;
+}
+
+.footercomponent span {
+  font-size: 16px;
+  margin-left: -15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    border: 0px;
+  }
+  .header .navbar-inverse {
+    border: 0px;
+  }
+  .bannercomponent {
+    height: 100%;
+  }
+  .bannercomponent .custom-carousel {
+    width: 100%;
+    height: 260px;
+  }
+  .bannercomponent .custom-carousel img {
+    width: 100%;
+    height: 200px;
+  }
+  .bannercomponent .custom-carousel .carousel-caption {
+    padding: 0;
+    width: 200px;
+  }
+  .bannercomponent .custom-carousel h3 {
+    font-size: 19px;
+  }
+  .bannercomponent .custom-carousel p {
+    font-size: 16px;
+  }
+  .bannercomponent .custom-carousel button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .bannercomponent .carousel-indicators {
+    bottom: 0%;
+    left: 15%;
+  }
+  .bannercomponent .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 0 10px;
+    background: #c6c6c6;
+  }
+  .bannercomponent .carousel-indicators li.active {
+    background: #4fbb6f;
+  }
+  .aboutuscomponent .about iframe {
+    width: 100%;
+  }
+  .aboutuscomponent .about .titlesection h2 {
+    font-size: 35px;
+  }
+  .repaircomponent .teaser {
+    height: auto;
+  }
+  .repaircomponent .teaser img {
+    width: 86%;
+  }
+  .teamcomponent .teaser img {
+    width: 100%;
+  }
+  .manufacturecomponent {
+    height: 600px;
+  }
+  .manufacturecomponent .manufacture {
+    height: 600px;
+  }
+  .manufacturecomponent .manufacture ul {
+    text-align: center;
+  }
+  .testimonialcomponent {
+    text-align: center;
+  }
+  .testimonialcomponent .teaser {
+    text-align: center;
+  }
+  .testimonialcomponent p {
+    margin-top: 10px;
+  }
+  .jointeamcomponent .joinus img {
+    width: 100%;
+  }
+  .footercomponent {
+    padding: 0 15px;
+  }
+  .footercomponent .footsection {
+    margin: 0;
+  }
+  .footercomponent .footsection .footlogo ul {
+    margin: 10px 0;
+    padding: 20px 0 0 0;
+  }
+  .footercomponent .footsection .footnews .titlesection .form-control {
+    width: 75%;
+  }
+  .footercomponent .footsection .footnews .titlesection .btn-default {
+    right: 100px;
+  }
+  .footercomponent .footsection .footcontact {
+    margin-top: 30px;
+  }
+  .footercomponent .footsection .footcontact .row {
+    margin: 0;
+  }
+  .footercomponent .footsection .footcontact .footaddress {
+    padding: 5px 0;
+  }
+  .footercomponent .footsection .footcontact .footaddress .footwork {
+    margin: 10px 25px;
+  }
+  .footercomponent .footsection .footcontact .footaddress a {
+    display: inline-block;
+    padding: 5px 0;
+  }
+  .footercomponent .footsection .footcontact .footaddress p {
+    padding: 5px 0;
+  }
+  .footercomponent .footsection span {
+    margin-left: -13px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
