@@ -1,0 +1,814 @@
+$primaryclr:#457ee9;
+$secondaryclr:#f9f8fd;
+$whiteclr:#ffffff;
+$blackclr:#000000;
+$fontsz:16px;
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../asset/fonts/poppins-bold-webfont.eot');
+    src: url('../asset/fonts/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../asset/fonts/poppins-bold-webfont.woff') format('woff'),
+         url('../asset/fonts/poppins-bold-webfont.ttf') format('truetype'),
+         url('../asset/fonts/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url('../asset/fonts/poppins-italic-webfont.eot');
+    src: url('../asset/fonts/poppins-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/fonts/poppins-italic-webfont.woff2') format('woff2'),
+         url('../asset/fonts/poppins-italic-webfont.woff') format('woff'),
+         url('../asset/fonts/poppins-italic-webfont.ttf') format('truetype'),
+         url('../asset/fonts/poppins-italic-webfont.svg#poppinsitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../asset/fonts/poppins-light-webfont.eot');
+    src: url('../asset/fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../asset/fonts/poppins-light-webfont.woff') format('woff'),
+         url('../asset/fonts/poppins-light-webfont.ttf') format('truetype'),
+         url('../asset/fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../asset/fonts/poppins-regular-webfont.eot');
+    src: url('../asset/fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../asset/fonts/poppins-regular-webfont.woff') format('woff'),
+         url('../asset/fonts/poppins-regular-webfont.ttf') format('truetype'),
+         url('../asset/fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../asset/fonts/poppins-semibold-webfont.eot');
+    src: url('../asset/fonts/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../asset/fonts/poppins-semibold-webfont.woff') format('woff'),
+         url('../asset/fonts/poppins-semibold-webfont.ttf') format('truetype'),
+         url('../asset/fonts/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('../asset/fonts/poppins-black-webfont.eot');
+    src: url('../asset/fonts/poppins-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../asset/fonts/poppins-black-webfont.woff') format('woff'),
+         url('../asset/fonts/poppins-black-webfont.ttf') format('truetype'),
+         url('../asset/fonts/poppins-black-webfont.svg#poppinsblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('../asset/fonts/poppins-extrabold-webfont.eot');
+    src: url('../asset/fonts/poppins-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('../asset/fonts/poppins-extrabold-webfont.woff') format('woff'),
+         url('../asset/fonts/poppins-extrabold-webfont.ttf') format('truetype'),
+         url('../asset/fonts/poppins-extrabold-webfont.svg#poppinsextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    line-height: 20px;
+}
+.container-fluid,.container{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+/* Global*/
+.button{
+    background: $primaryclr;
+    color: $whiteclr;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+.btn{
+    text-transform: capitalize;
+    padding: 15px 25px;
+    background: #323d5b;
+    margin: 20px 0;
+    border-radius: 25px;
+    border: 0;
+    &:hover{
+        border: 0;
+        background: skyblue;
+    }
+}
+.title-section{
+    text-align: center;
+    .pre-title{
+        text-transform: uppercase;
+        color: $primaryclr;
+        font-size: $fontsz+4;
+        display: inline-block;
+    }
+    h1{
+        text-transform: capitalize;
+        font-size: $fontsz+21;
+        line-height:45px ;
+    }
+    p{
+        font-size: $fontsz;
+        line-height: 25px;
+    }
+}
+.aboutus{
+    padding: 75px 0;
+    form{
+        label{
+            text-transform: capitalize;
+            font-weight: 500;
+            font-size: $fontsz+6;
+            padding: 15px 0;
+        }
+    }
+    .marketingimage{
+        position: relative;
+        .economicimage{
+            position: absolute;
+            top: -12.4%;
+            right: 1%;
+        }
+    }
+}
+/* header*/
+.header{
+    background: $secondaryclr;
+    padding: 20px 0;
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+        background: none;
+    }
+    .custom-navbar{
+        border: none;
+        background: none;
+        margin-bottom: 0;
+        border-radius: 0;
+        padding: 5px 0;
+        .navbar-header a{
+            display: inline-block;
+            img{
+                width: 150px;
+                margin-top: -20px;
+            }
+        }
+        .navbar-right{
+            li{
+                .active{
+                    color: $primaryclr;
+                }
+                a{
+                    padding: 18px;
+                    color: $blackclr;
+                    display: inline-block;
+                    text-transform: capitalize;
+                    &:hover{
+                        color: $primaryclr;
+                        transition: 1s;
+                    }
+                    .caret{
+                        border: 0;
+                    }
+                }
+
+            }
+            .dropdown-menu{
+                min-width: 0;
+                top: 40px;
+                padding: 0;
+                li a{
+                    padding: 10px 15px;
+                    &:hover{
+                        background: orange;
+                        color: $whiteclr;
+                    }
+                }
+            }
+            .button{
+                margin-left: 10px;
+                padding:15px 30px;
+                color: $whiteclr;
+                &:hover{
+                    background: skyblue;
+                }
+            }
+        }
+    }
+    .bannercomponent{
+        padding: 20px 0;
+        .banner{
+            text-align: center;
+            position: relative;
+            z-index: 5;
+            h1{
+                position: absolute;
+                z-index: -1;
+                top: 4.5%;
+                left: -4%;
+                font-family: 'poppinssemibold';
+                font-size: 150px;
+                line-height: 150px;
+            }
+            h2{
+                position: absolute;
+                z-index: 2;
+                bottom: -1%;
+                right: -7%;
+                font-family: 'poppinssemibold';
+                font-size: 146px;
+                line-height: 146px;
+            }
+            .decision{
+                position: absolute;
+                top: 48%;
+                left: -3%;
+                text-transform: capitalize;
+                font-size: $fontsz+2;
+                font-weight: 500;
+            }
+            .plustop{
+                position: absolute;
+                top: 15%;
+                right: 15%;
+            }
+            .visit{
+                position: absolute;
+                bottom: -5%;
+                left: 11%;
+                text-align: right;
+                p{
+                    text-transform: capitalize;
+                    font-size: $fontsz+2;
+                    font-weight: 500;
+                    
+                }
+            }
+            .bounce{
+                position: absolute;
+                top: 18%;
+                right: -5%;
+                text-align: center;
+                p{
+                    text-transform: capitalize;
+                    font-size: $fontsz+2;
+                    line-height: 30px;
+                    font-weight: 500;
+                }
+            }
+        }  
+    }
+}
+/*imagelist*/
+.imagelist{
+    background: #f0f2fe;
+    ul{
+        padding: 0;
+    }
+    ul li{
+        display: inline-block;
+        padding: 40px;
+    }
+}
+/*aboutus*/
+.aboutuscomponent{
+    padding: 75px 0;
+    .title-section{
+        text-align: left;
+    }
+}
+/*services*/
+.servicecomponent{
+    background: #f8f9fe;
+    padding: 90px 0 30px 0;
+    .title-section{
+        .pre-title{
+            margin-bottom: 10px;
+        }
+        h1{
+            font-size: $fontsz+16;
+        }
+    }
+    .provides{
+        background: $whiteclr;
+        padding: 20px 0 0 0 ;
+        margin: 20px 0;
+        border-radius: 13px;
+        box-shadow: 10px 10px 5px #f3f3f3;
+        .teaser{
+            padding: 0 0 10px 0;
+            border-bottom: 1px solid $whiteclr;
+            &:hover{
+                border-bottom: 1px solid blue;
+            }
+        }
+        .active{
+            border-bottom: 1px solid blue;
+        }
+    }
+    h2{
+        padding: 10px 0;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: $fontsz;
+    }
+    form{
+        padding: 10px 0;
+        label{
+            font-weight: 500;
+            padding: 10px 0;
+        }
+    }
+}
+/*play banner*/
+.playbanner{
+    background: url("../asset/images/bg.jpg") no-repeat -240px 0px / cover;
+    height: 550px;
+    color: $whiteclr;
+    .playvideo{
+        .play{
+            text-align: center;
+            a{
+                border-radius: 100%;
+                border: 1px solid $whiteclr;
+                padding: 50px;
+                display: inline-block;
+                text-decoration: none;
+                margin: 25% 0;
+                i{
+                    font-size: $fontsz+4;
+                    color: $primaryclr;
+                    padding: 50px;
+                    border-radius: 100%;
+                    background: $whiteclr;
+                    box-shadow: 0px 0px 15px #ccc;
+                }
+            }
+        }
+        .playcontent{
+            padding: 50px 0;
+            .title-section{
+                text-align: left;
+                h1{
+                    font-size: $fontsz+28;
+                    line-height: $fontsz+34;
+                }
+                p{
+                    font-size: $fontsz;
+                }
+        }
+        }
+    }
+    
+}
+/*product business*/
+.businesscomponent{
+    padding: 50px 0;
+    .business-section{
+        padding: 50px 0 0 0 ;
+        .title-section{
+            text-align: left;
+            h1{
+                font-family: 'poppinssemibold';
+                font-size: $fontsz+24;
+                color: #292970;
+            }
+            p{
+                font-size: 14px;
+                line-height: 30px;
+            }
+        }
+        span{
+            .btn{
+                background: none;
+                color: $primaryclr;
+                border: 1px solid $primaryclr;
+                &:hover,&.active{
+                    background: $primaryclr;
+                    color: $whiteclr;
+                }
+            }
+        }
+        .productimage{
+            img{
+                width: 759px;
+                height: 425px;
+            }
+        }
+    }
+}
+/*awards Section*/
+.awardscomponent{
+    padding: 60px 0 0 0;
+    .teaserlist{
+        padding: 60px 0;
+        .teaser{
+            text-align: center;
+            img{
+                border: 1px solid #cccccc;
+                padding: 20px;
+            }
+        }
+        p{
+            font-size: $fontsz+2;
+            margin: 18px 0;
+        }
+    }
+}
+/* blogcomponent*/
+.blogcomponent{
+    .title-section{
+        .pre-title{
+            text-transform: capitalize;
+        }
+    }
+    .teaserlist{
+        padding: 50px 0;
+        .teaser{
+            box-shadow: 8px 1px 21px #ccc;
+            margin: 0 15px;
+            img{
+                width: 100%;
+                background: #eef0fd;
+            }
+            .btn{
+                text-transform: uppercase;
+                margin: -15px 0px 0px 10px;
+                padding: 5px 20px;
+                background: $primaryclr;
+            }
+            .design{
+                padding: 15px;
+                .title-section{
+                    text-align: left;
+                    .pre-title{
+                        font-size: $fontsz;
+                    }
+                    h1{
+                        font-size: $fontsz+7;
+                        line-height: 23px;
+                    }
+                    a{
+                        text-decoration: none;
+                        display: inline-block;
+                        color: $primaryclr;
+                        font-weight: bold;
+                        font-size: $fontsz;
+                    }
+                }
+            }
+        }
+    }
+}
+/* footer*/
+.footer{
+    background: #eef0fd;
+    padding: 30px  0;
+    color: #77718d;
+    .newsletter{
+        .title-section{
+            text-align: left;
+            h1{
+                font-size: $fontsz+9;
+                color: #313e5b;
+            }
+        }
+    }
+    .email{
+        padding: 40px 0 0 0;
+        span{
+            display: inline;
+        }
+        .input-group{
+            .form-control{
+                border-radius: 25px;
+                padding:25px ;
+                z-index: 1;
+                border: 0;
+            }
+            .btn{
+                margin: 0 0 0 -50px;
+                padding: 15px 40px;
+                background: #457ee9;
+                color: #fff;
+                border-radius: 25px;
+    
+            }
+        }
+    }
+    .footersection{
+        padding: 50px 0;
+        border-bottom: 1px solid #e0e3f2;
+        .title-section{
+            text-align: left;
+            h1{
+                font-size: $fontsz+9;
+                color: #313e5b;
+            }
+        }
+        .footlogo{
+            a{
+                display: inline-block;
+                img{
+                    width: 150px;
+                    margin-top: 25px;
+                }
+            }
+            p{
+                padding: 40px 0;
+                font-size: $fontsz;
+                line-height: 30px;
+            }
+            .footicon{
+                padding: 10px 0 0 0;
+                a{
+                    color: $blackclr;
+                    display: inline-block;
+                    i{
+                        font-size: $fontsz+4;
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+        .footmenu{
+            a{
+                text-transform: capitalize;
+                display: block;
+                text-decoration: none;
+                margin: 20px 0;
+                font-size: $fontsz;
+                color: #77718d;
+            }
+        }
+        .footcontact{
+            a{
+                text-decoration: none;
+                display: block;
+                margin: 20px 0;
+                color: $blackclr;
+                font-size: 15px;
+                i{
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+    .title-section{
+        padding-top: 20px;
+        p{
+            font-size: $fontsz+1;
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:480px)
+{
+    .container{
+        padding: 0 15px;
+    }
+    .btn{
+        margin: 0;
+    }
+    .title-section{
+        .pre-title{
+            font-size: $fontsz+4;
+        }
+        h1{
+            font-size: $fontsz+9;
+            line-height: normal;
+        }
+    }
+    .header{
+        .navbar-toggle{
+            background: $primaryclr;
+            border: 0;
+        }
+        .navbar-inverse {
+            .navbar-collapse{
+                border: 0;
+            }
+        }
+        .custom-navbar{
+            .navbar-right{
+                li a{
+                    padding: 10px;
+                }
+                .button{
+                    padding: 10px 20px;
+                }
+            }
+        }
+        .bannercomponent{
+            padding: 35px 0;
+            .banner {
+                height:250px;
+                padding: 35px 0;
+                img{
+                    width: 100%;
+                }
+                h1{
+                    top: -30px;
+                    font-size: 34px;
+                }
+                h2{
+                    right: 0;
+                    bottom: -25px;
+                    font-size: 30px;
+                }
+                .decision{
+                    font-size: 14px;
+                }
+                .plustop{
+                    top: -17%;
+                    right: 27%;
+                    img{
+                        width: auto;
+                    }
+                }
+                .visit{
+                    bottom: -10%;
+                    left: 0%;
+                    text-align: left;
+                    img{
+                        width: auto;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+                .bounce{
+                    top: 0%;
+                    right: 0%;
+                    text-align: right;
+                    p{
+                        font-size: 14px;
+                        line-height: 20px;
+                        padding: 0 35px;
+                    }
+                }
+            }  
+        }
+    }
+    .imagelist{
+        ul{
+            text-align: center;
+            li{
+                display: block;
+                padding: 20px;
+            }
+        }
+    }
+    .aboutuscomponent{
+        padding: 10px 0;
+        .aboutus{
+            padding: 15px 0;
+            .marketingimage{
+                padding: 0px;
+                right: 0;
+                margin-top: 50px;
+                .economicimage{
+                    top:-5%;
+                    left: 11%;
+                    width: 91%;
+                }
+            }
+            .marketingimage img,.economicimage img{
+                width: 100%;
+            }
+            form label{
+                font-size: $fontsz;
+                padding: 5px 0;
+            }
+        }
+    }
+    .servicecomponent{
+        padding: 20px 0;
+        h2{
+            font-size: $fontsz+9;
+        }
+        form label{
+            padding: 0;
+        }
+    }
+    .playbanner {
+        height: auto;
+        .playvideo {
+            .play a {
+                margin: 10px 0;
+                padding: 30px;
+                i{
+                    padding: 30px;
+                }
+        }
+            .playcontent{
+                padding: 15px 0;
+                .title-section{
+                    h1{
+                        font-size: $fontsz+14;
+                        line-height: normal;
+                    }
+            }
+        }
+        }
+    }
+    .businesscomponent{
+        padding: 15px 0;
+        .business-section{
+            padding: 20px 0;
+            .title-section{
+                .pre-title{
+                    font-size: $fontsz;
+                }
+                h1{
+                    font-size: 30px;
+                    line-height: normal;
+                }
+            }
+            .productimage img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .businesscomponent{
+        span{
+            .btn{
+                padding: 13px 15px;
+            }
+        }
+        .productimage{
+            margin-top: 25px;
+        }
+    }
+    .awardscomponent{
+        padding: 15px 0;
+        .teaserlist{
+            padding: 15px 0;
+        }
+    }
+    .blogcomponent{
+        .teaserlist{
+            padding: 15px 0;
+            .teaser{
+                margin: 20px 0;
+            }
+        }
+    }
+    .footer{
+        .newsletter{
+            .title-section{
+                h1{
+                    font-size: $fontsz+7;
+                }
+            }
+        }
+        .title-section{
+            padding: 0;
+            p{
+                font-size: 16px;
+            }
+        }
+        padding: 0;
+        .email{
+            .btn{
+                padding: 7px 15px;
+            }
+        }
+        .footersection{
+            padding: 15px 0;
+            .footlogo{
+                p{
+                    padding: 10px 0;
+                }
+            }
+        }
+    } 
+}

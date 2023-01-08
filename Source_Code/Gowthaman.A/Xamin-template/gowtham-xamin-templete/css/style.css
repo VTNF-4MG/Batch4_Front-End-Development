@@ -1,0 +1,827 @@
+@font-face {
+  font-family: 'poppinsbold';
+  src: url("../asset/fonts/poppins-bold-webfont.eot");
+  src: url("../asset/fonts/poppins-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-bold-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-bold-webfont.woff") format("woff"), url("../asset/fonts/poppins-bold-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-bold-webfont.svg#poppinsbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsitalic';
+  src: url("../asset/fonts/poppins-italic-webfont.eot");
+  src: url("../asset/fonts/poppins-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-italic-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-italic-webfont.woff") format("woff"), url("../asset/fonts/poppins-italic-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-italic-webfont.svg#poppinsitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinslight';
+  src: url("../asset/fonts/poppins-light-webfont.eot");
+  src: url("../asset/fonts/poppins-light-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-light-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-light-webfont.woff") format("woff"), url("../asset/fonts/poppins-light-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-light-webfont.svg#poppinslight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url("../asset/fonts/poppins-regular-webfont.eot");
+  src: url("../asset/fonts/poppins-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-regular-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-regular-webfont.woff") format("woff"), url("../asset/fonts/poppins-regular-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-regular-webfont.svg#poppinsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url("../asset/fonts/poppins-semibold-webfont.eot");
+  src: url("../asset/fonts/poppins-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-semibold-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-semibold-webfont.woff") format("woff"), url("../asset/fonts/poppins-semibold-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-semibold-webfont.svg#poppinssemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsblack';
+  src: url("../asset/fonts/poppins-black-webfont.eot");
+  src: url("../asset/fonts/poppins-black-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-black-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-black-webfont.woff") format("woff"), url("../asset/fonts/poppins-black-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-black-webfont.svg#poppinsblack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsextrabold';
+  src: url("../asset/fonts/poppins-extrabold-webfont.eot");
+  src: url("../asset/fonts/poppins-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../asset/fonts/poppins-extrabold-webfont.woff2") format("woff2"), url("../asset/fonts/poppins-extrabold-webfont.woff") format("woff"), url("../asset/fonts/poppins-extrabold-webfont.ttf") format("truetype"), url("../asset/fonts/poppins-extrabold-webfont.svg#poppinsextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'poppinsregular';
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container-fluid, .container {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Global*/
+.button {
+  background: #457ee9;
+  color: #ffffff;
+  border-radius: 25px;
+  text-transform: capitalize;
+}
+
+.btn {
+  text-transform: capitalize;
+  padding: 15px 25px;
+  background: #323d5b;
+  margin: 20px 0;
+  border-radius: 25px;
+  border: 0;
+}
+
+.btn:hover {
+  border: 0;
+  background: skyblue;
+}
+
+.title-section {
+  text-align: center;
+}
+
+.title-section .pre-title {
+  text-transform: uppercase;
+  color: #457ee9;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.title-section h1 {
+  text-transform: capitalize;
+  font-size: 37px;
+  line-height: 45px;
+}
+
+.title-section p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.aboutus {
+  padding: 75px 0;
+}
+
+.aboutus form label {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 15px 0;
+}
+
+.aboutus .marketingimage {
+  position: relative;
+}
+
+.aboutus .marketingimage .economicimage {
+  position: absolute;
+  top: -12.4%;
+  right: 1%;
+}
+
+/* header*/
+.header {
+  background: #f9f8fd;
+  padding: 20px 0;
+}
+
+.header .navbar-inverse .navbar-nav > .open > a, .header .navbar-inverse .navbar-nav > .open > a:focus, .header .navbar-inverse .navbar-nav > .open > a:hover {
+  background: none;
+}
+
+.header .custom-navbar {
+  border: none;
+  background: none;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 5px 0;
+}
+
+.header .custom-navbar .navbar-header a {
+  display: inline-block;
+}
+
+.header .custom-navbar .navbar-header a img {
+  width: 150px;
+  margin-top: -20px;
+}
+
+.header .custom-navbar .navbar-right li .active {
+  color: #457ee9;
+}
+
+.header .custom-navbar .navbar-right li a {
+  padding: 18px;
+  color: #000000;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.header .custom-navbar .navbar-right li a:hover {
+  color: #457ee9;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .custom-navbar .navbar-right li a .caret {
+  border: 0;
+}
+
+.header .custom-navbar .navbar-right .dropdown-menu {
+  min-width: 0;
+  top: 40px;
+  padding: 0;
+}
+
+.header .custom-navbar .navbar-right .dropdown-menu li a {
+  padding: 10px 15px;
+}
+
+.header .custom-navbar .navbar-right .dropdown-menu li a:hover {
+  background: orange;
+  color: #ffffff;
+}
+
+.header .custom-navbar .navbar-right .button {
+  margin-left: 10px;
+  padding: 15px 30px;
+  color: #ffffff;
+}
+
+.header .custom-navbar .navbar-right .button:hover {
+  background: skyblue;
+}
+
+.header .bannercomponent {
+  padding: 20px 0;
+}
+
+.header .bannercomponent .banner {
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.header .bannercomponent .banner h1 {
+  position: absolute;
+  z-index: -1;
+  top: 4.5%;
+  left: -4%;
+  font-family: 'poppinssemibold';
+  font-size: 150px;
+  line-height: 150px;
+}
+
+.header .bannercomponent .banner h2 {
+  position: absolute;
+  z-index: 2;
+  bottom: -1%;
+  right: -7%;
+  font-family: 'poppinssemibold';
+  font-size: 146px;
+  line-height: 146px;
+}
+
+.header .bannercomponent .banner .decision {
+  position: absolute;
+  top: 48%;
+  left: -3%;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header .bannercomponent .banner .plustop {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+}
+
+.header .bannercomponent .banner .visit {
+  position: absolute;
+  bottom: -5%;
+  left: 11%;
+  text-align: right;
+}
+
+.header .bannercomponent .banner .visit p {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header .bannercomponent .banner .bounce {
+  position: absolute;
+  top: 18%;
+  right: -5%;
+  text-align: center;
+}
+
+.header .bannercomponent .banner .bounce p {
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+/*imagelist*/
+.imagelist {
+  background: #f0f2fe;
+}
+
+.imagelist ul {
+  padding: 0;
+}
+
+.imagelist ul li {
+  display: inline-block;
+  padding: 40px;
+}
+
+/*aboutus*/
+.aboutuscomponent {
+  padding: 75px 0;
+}
+
+.aboutuscomponent .title-section {
+  text-align: left;
+}
+
+/*services*/
+.servicecomponent {
+  background: #f8f9fe;
+  padding: 90px 0 30px 0;
+}
+
+.servicecomponent .title-section .pre-title {
+  margin-bottom: 10px;
+}
+
+.servicecomponent .title-section h1 {
+  font-size: 32px;
+}
+
+.servicecomponent .provides {
+  background: #ffffff;
+  padding: 20px 0 0 0;
+  margin: 20px 0;
+  border-radius: 13px;
+  -webkit-box-shadow: 10px 10px 5px #f3f3f3;
+          box-shadow: 10px 10px 5px #f3f3f3;
+}
+
+.servicecomponent .provides .teaser {
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.servicecomponent .provides .teaser:hover {
+  border-bottom: 1px solid blue;
+}
+
+.servicecomponent .provides .active {
+  border-bottom: 1px solid blue;
+}
+
+.servicecomponent h2 {
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+
+.servicecomponent p {
+  font-size: 16px;
+}
+
+.servicecomponent form {
+  padding: 10px 0;
+}
+
+.servicecomponent form label {
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+/*play banner*/
+.playbanner {
+  background: url("../asset/images/bg.jpg") no-repeat -240px 0px/cover;
+  height: 550px;
+  color: #ffffff;
+}
+
+.playbanner .playvideo .play {
+  text-align: center;
+}
+
+.playbanner .playvideo .play a {
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  padding: 50px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 25% 0;
+}
+
+.playbanner .playvideo .play a i {
+  font-size: 20px;
+  color: #457ee9;
+  padding: 50px;
+  border-radius: 100%;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 15px #ccc;
+          box-shadow: 0px 0px 15px #ccc;
+}
+
+.playbanner .playvideo .playcontent {
+  padding: 50px 0;
+}
+
+.playbanner .playvideo .playcontent .title-section {
+  text-align: left;
+}
+
+.playbanner .playvideo .playcontent .title-section h1 {
+  font-size: 44px;
+  line-height: 50px;
+}
+
+.playbanner .playvideo .playcontent .title-section p {
+  font-size: 16px;
+}
+
+/*product business*/
+.businesscomponent {
+  padding: 50px 0;
+}
+
+.businesscomponent .business-section {
+  padding: 50px 0 0 0;
+}
+
+.businesscomponent .business-section .title-section {
+  text-align: left;
+}
+
+.businesscomponent .business-section .title-section h1 {
+  font-family: 'poppinssemibold';
+  font-size: 40px;
+  color: #292970;
+}
+
+.businesscomponent .business-section .title-section p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.businesscomponent .business-section span .btn {
+  background: none;
+  color: #457ee9;
+  border: 1px solid #457ee9;
+}
+
+.businesscomponent .business-section span .btn:hover, .businesscomponent .business-section span .btn.active {
+  background: #457ee9;
+  color: #ffffff;
+}
+
+.businesscomponent .business-section .productimage img {
+  width: 759px;
+  height: 425px;
+}
+
+/*awards Section*/
+.awardscomponent {
+  padding: 60px 0 0 0;
+}
+
+.awardscomponent .teaserlist {
+  padding: 60px 0;
+}
+
+.awardscomponent .teaserlist .teaser {
+  text-align: center;
+}
+
+.awardscomponent .teaserlist .teaser img {
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+
+.awardscomponent .teaserlist p {
+  font-size: 18px;
+  margin: 18px 0;
+}
+
+/* blogcomponent*/
+.blogcomponent .title-section .pre-title {
+  text-transform: capitalize;
+}
+
+.blogcomponent .teaserlist {
+  padding: 50px 0;
+}
+
+.blogcomponent .teaserlist .teaser {
+  -webkit-box-shadow: 8px 1px 21px #ccc;
+          box-shadow: 8px 1px 21px #ccc;
+  margin: 0 15px;
+}
+
+.blogcomponent .teaserlist .teaser img {
+  width: 100%;
+  background: #eef0fd;
+}
+
+.blogcomponent .teaserlist .teaser .btn {
+  text-transform: uppercase;
+  margin: -15px 0px 0px 10px;
+  padding: 5px 20px;
+  background: #457ee9;
+}
+
+.blogcomponent .teaserlist .teaser .design {
+  padding: 15px;
+}
+
+.blogcomponent .teaserlist .teaser .design .title-section {
+  text-align: left;
+}
+
+.blogcomponent .teaserlist .teaser .design .title-section .pre-title {
+  font-size: 16px;
+}
+
+.blogcomponent .teaserlist .teaser .design .title-section h1 {
+  font-size: 23px;
+  line-height: 23px;
+}
+
+.blogcomponent .teaserlist .teaser .design .title-section a {
+  text-decoration: none;
+  display: inline-block;
+  color: #457ee9;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* footer*/
+.footer {
+  background: #eef0fd;
+  padding: 30px  0;
+  color: #77718d;
+}
+
+.footer .newsletter .title-section {
+  text-align: left;
+}
+
+.footer .newsletter .title-section h1 {
+  font-size: 25px;
+  color: #313e5b;
+}
+
+.footer .email {
+  padding: 40px 0 0 0;
+}
+
+.footer .email span {
+  display: inline;
+}
+
+.footer .email .input-group .form-control {
+  border-radius: 25px;
+  padding: 25px;
+  z-index: 1;
+  border: 0;
+}
+
+.footer .email .input-group .btn {
+  margin: 0 0 0 -50px;
+  padding: 15px 40px;
+  background: #457ee9;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.footer .footersection {
+  padding: 50px 0;
+  border-bottom: 1px solid #e0e3f2;
+}
+
+.footer .footersection .title-section {
+  text-align: left;
+}
+
+.footer .footersection .title-section h1 {
+  font-size: 25px;
+  color: #313e5b;
+}
+
+.footer .footersection .footlogo a {
+  display: inline-block;
+}
+
+.footer .footersection .footlogo a img {
+  width: 150px;
+  margin-top: 25px;
+}
+
+.footer .footersection .footlogo p {
+  padding: 40px 0;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer .footersection .footlogo .footicon {
+  padding: 10px 0 0 0;
+}
+
+.footer .footersection .footlogo .footicon a {
+  color: #000000;
+  display: inline-block;
+}
+
+.footer .footersection .footlogo .footicon a i {
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.footer .footersection .footmenu a {
+  text-transform: capitalize;
+  display: block;
+  text-decoration: none;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #77718d;
+}
+
+.footer .footersection .footcontact a {
+  text-decoration: none;
+  display: block;
+  margin: 20px 0;
+  color: #000000;
+  font-size: 15px;
+}
+
+.footer .footersection .footcontact a i {
+  padding-right: 20px;
+}
+
+.footer .title-section {
+  padding-top: 20px;
+}
+
+.footer .title-section p {
+  font-size: 17px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+  .btn {
+    margin: 0;
+  }
+  .title-section .pre-title {
+    font-size: 20px;
+  }
+  .title-section h1 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .header .navbar-toggle {
+    background: #457ee9;
+    border: 0;
+  }
+  .header .navbar-inverse .navbar-collapse {
+    border: 0;
+  }
+  .header .custom-navbar .navbar-right li a {
+    padding: 10px;
+  }
+  .header .custom-navbar .navbar-right .button {
+    padding: 10px 20px;
+  }
+  .header .bannercomponent {
+    padding: 35px 0;
+  }
+  .header .bannercomponent .banner {
+    height: 250px;
+    padding: 35px 0;
+  }
+  .header .bannercomponent .banner img {
+    width: 100%;
+  }
+  .header .bannercomponent .banner h1 {
+    top: -30px;
+    font-size: 34px;
+  }
+  .header .bannercomponent .banner h2 {
+    right: 0;
+    bottom: -25px;
+    font-size: 30px;
+  }
+  .header .bannercomponent .banner .decision {
+    font-size: 14px;
+  }
+  .header .bannercomponent .banner .plustop {
+    top: -17%;
+    right: 27%;
+  }
+  .header .bannercomponent .banner .plustop img {
+    width: auto;
+  }
+  .header .bannercomponent .banner .visit {
+    bottom: -10%;
+    left: 0%;
+    text-align: left;
+  }
+  .header .bannercomponent .banner .visit img {
+    width: auto;
+  }
+  .header .bannercomponent .banner .visit p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header .bannercomponent .banner .bounce {
+    top: 0%;
+    right: 0%;
+    text-align: right;
+  }
+  .header .bannercomponent .banner .bounce p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 35px;
+  }
+  .imagelist ul {
+    text-align: center;
+  }
+  .imagelist ul li {
+    display: block;
+    padding: 20px;
+  }
+  .aboutuscomponent {
+    padding: 10px 0;
+  }
+  .aboutuscomponent .aboutus {
+    padding: 15px 0;
+  }
+  .aboutuscomponent .aboutus .marketingimage {
+    padding: 0px;
+    right: 0;
+    margin-top: 50px;
+  }
+  .aboutuscomponent .aboutus .marketingimage .economicimage {
+    top: -5%;
+    left: 11%;
+    width: 91%;
+  }
+  .aboutuscomponent .aboutus .marketingimage img, .aboutuscomponent .aboutus .economicimage img {
+    width: 100%;
+  }
+  .aboutuscomponent .aboutus form label {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  .servicecomponent {
+    padding: 20px 0;
+  }
+  .servicecomponent h2 {
+    font-size: 25px;
+  }
+  .servicecomponent form label {
+    padding: 0;
+  }
+  .playbanner {
+    height: auto;
+  }
+  .playbanner .playvideo .play a {
+    margin: 10px 0;
+    padding: 30px;
+  }
+  .playbanner .playvideo .play a i {
+    padding: 30px;
+  }
+  .playbanner .playvideo .playcontent {
+    padding: 15px 0;
+  }
+  .playbanner .playvideo .playcontent .title-section h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .businesscomponent {
+    padding: 15px 0;
+  }
+  .businesscomponent .business-section {
+    padding: 20px 0;
+  }
+  .businesscomponent .business-section .title-section .pre-title {
+    font-size: 16px;
+  }
+  .businesscomponent .business-section .title-section h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .businesscomponent .business-section .productimage img {
+    width: 100%;
+    height: auto;
+  }
+  .businesscomponent span .btn {
+    padding: 13px 15px;
+  }
+  .businesscomponent .productimage {
+    margin-top: 25px;
+  }
+  .awardscomponent {
+    padding: 15px 0;
+  }
+  .awardscomponent .teaserlist {
+    padding: 15px 0;
+  }
+  .blogcomponent .teaserlist {
+    padding: 15px 0;
+  }
+  .blogcomponent .teaserlist .teaser {
+    margin: 20px 0;
+  }
+  .footer {
+    padding: 0;
+  }
+  .footer .newsletter .title-section h1 {
+    font-size: 23px;
+  }
+  .footer .title-section {
+    padding: 0;
+  }
+  .footer .title-section p {
+    font-size: 16px;
+  }
+  .footer .email .btn {
+    padding: 7px 15px;
+  }
+  .footer .footersection {
+    padding: 15px 0;
+  }
+  .footer .footersection .footlogo p {
+    padding: 10px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
